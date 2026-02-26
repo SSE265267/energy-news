@@ -50,11 +50,13 @@
             font-size: 24px;
             font-weight: 700;
             margin-bottom: 4px;
+            animation: fadeInDown 0.6s ease-out;
         }
         
         .header p {
             font-size: 14px;
             opacity: 0.9;
+            animation: fadeIn 0.8s ease-out 0.2s both;
         }
         
         /* Date Tabs */
@@ -87,7 +89,7 @@
             font-weight: 500;
             cursor: pointer;
             border-radius: 20px 20px 0 0;
-            transition: all 0.2s;
+            transition: all 0.3s ease;
             white-space: nowrap;
             font-family: inherit;
         }
@@ -95,11 +97,13 @@
         .date-tab:hover {
             background: var(--bg);
             color: var(--text);
+            transform: translateY(-2px);
         }
         
         .date-tab.active {
             background: var(--primary);
             color: white;
+            box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
         }
         
         /* Main Content */
@@ -117,25 +121,40 @@
             margin-bottom: 16px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
             border: 1px solid var(--border);
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 0.5s ease forwards;
         }
         
+        .news-card:nth-child(1) { animation-delay: 0.1s; }
+        .news-card:nth-child(2) { animation-delay: 0.2s; }
+        .news-card:nth-child(3) { animation-delay: 0.3s; }
+        .news-card:nth-child(4) { animation-delay: 0.4s; }
+        .news-card:nth-child(5) { animation-delay: 0.5s; }
+        
         .news-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
         }
         
         .news-card:last-child { margin-bottom: 0; }
         
         .news-country {
-            display: inline-block;
-            padding: 4px 10px;
-            background: var(--bg);
-            color: var(--primary);
-            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            font-size: 13px;
             font-weight: 600;
-            border-radius: 12px;
+            border-radius: 20px;
             margin-bottom: 12px;
+        }
+        
+        .country-flag {
+            font-size: 16px;
         }
         
         .news-title {
@@ -157,16 +176,25 @@
             color: var(--text);
             font-size: 14px;
             border-bottom: 1px solid var(--border);
+            transition: background 0.2s;
+        }
+        
+        .news-keypoints li:hover {
+            background: rgba(5, 150, 105, 0.05);
+            margin: 0 -8px;
+            padding-left: 28px;
+            border-radius: 4px;
         }
         
         .news-keypoints li:last-child { border-bottom: none; }
         
         .news-keypoints li::before {
-            content: "•";
-            color: var(--primary);
+            content: "⚡";
             position: absolute;
-            left: 4px;
-            font-weight: bold;
+            left: 2px;
+            font-size: 10px;
+            top: 50%;
+            transform: translateY(-50%);
         }
         
         .news-source {
@@ -181,11 +209,13 @@
             font-size: 13px;
             display: inline-flex;
             align-items: center;
-            gap: 4px;
+            gap: 6px;
+            transition: all 0.2s;
         }
         
         .news-source a:hover {
-            text-decoration: underline;
+            color: var(--primary-light);
+            transform: translateX(4px);
         }
         
         /* Loading */
@@ -196,13 +226,37 @@
         }
         
         .loading-spinner {
-            width: 32px;
-            height: 32px;
+            width: 40px;
+            height: 40px;
             border: 3px solid var(--border);
             border-top-color: var(--primary);
             border-radius: 50%;
             animation: spin 0.8s linear infinite;
             margin: 0 auto 12px;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
         
         @keyframes spin {
@@ -268,10 +322,44 @@
         let newsData = {};
         let currentDate = 'd0226';
 
+        // 國家旗幟對照表
+        function getCountryFlag(country) {
+            const flags = {
+                '美國': '🇺🇸', '美国': '🇺🇸', 'US': '🇺🇸', 'USA': '🇺🇸',
+                '德國': '🇩🇪', '德国': '🇩🇪', 'Germany': '🇩🇪',
+                '中國': '🇨🇳', '中国': '🇨🇳', 'China': '🇨🇳',
+                '英國': '🇬🇧', '英国': '🇬🇧', 'UK': '🇬🇧', 'Britain': '🇬🇧',
+                '日本': '🇯🇵', 'Japan': '🇯🇵',
+                '澳洲': '🇦🇺', '澳大利亚': '🇦🇺', 'Australia': '🇦🇺',
+                '法國': '🇫🇷', '法国': '🇫🇷', 'France': '🇫🇷',
+                '印度': '🇮🇳', 'India': '🇮🇳',
+                '巴西': '🇧🇷', '巴西': '🇧🇷', 'Brazil': '🇧🇷',
+                '智利': '🇨🇱', 'Chile': '🇨🇱',
+                '墨西哥': '🇲🇽', 'Mexico': '🇲🇽',
+                '埃及': '🇪🇬', '埃及': '🇪🇬', 'Egypt': '🇪🇬',
+                '西班牙': '🇪🇸', 'Spain': '🇪🇸',
+                '義大利': '🇮🇹', '意大利': '🇮🇹', 'Italy': '🇮🇹',
+                '韓國': '🇰🇷', '韩国': '🇰🇷', 'South Korea': '🇰🇷', 'Korea': '🇰🇷',
+                '台灣': '🇹🇼', '台湾': '🇹🇼', 'Taiwan': '🇹🇼',
+                '歐洲': '🇪🇺', '欧洲': '🇪🇺', 'Europe': '🇪🇺',
+                '拉丁美洲': '🌎', 'Latin America': '🌎',
+                '全球': '🌍', '世界': '🌍', 'World': '🌍', 'Global': '🌍'
+            };
+            return flags[country] || '🌐';
+        }
+
+        function extractCountry(title) {
+            const match = title.match(/\(([^)]+)\)/);
+            return match ? match[1] : '全球';
+        }
+
+        function cleanTitle(title) {
+            return title.replace(/\s*\([^)]+\)\s*/g, '').trim();
+        }
+
         async function loadAllNews() {
             const container = document.getElementById('newsContainer');
-            container.innerHTML = '<div class="loading"><div class="loading-spinner"></div>載入中...</div>';
-            
+            container.innerHTML = '<div class="loading"><div class="loading-spinner"></div>載入中...</div>';            
             for (const d of dates) {
                 try {
                     const resp = await fetch(d.file);
@@ -308,9 +396,12 @@
                 return;
             }
 
-            container.innerHTML = data.articles.map(article => `
-                <article class="news-card">
-                    <span class="news-country">${extractCountry(article.title)}</span>
+            container.innerHTML = data.articles.map((article, index) => {
+                const country = extractCountry(article.title);
+                const flag = getCountryFlag(country);
+                return `
+                <article class="news-card" style="animation-delay: ${index * 0.1}s">
+                    <span class="news-country"><span class="country-flag">${flag}</span>${country}</span>
                     <h2 class="news-title">${cleanTitle(article.title)}</h2>
                     <ul class="news-keypoints">
                         ${article.keyPoints.map(point => `<li>${point}</li>`).join('')}
@@ -319,16 +410,7 @@
                         <a href="${article.sourceUrl}" target="_blank" rel="noopener">閱讀原文 →</a>
                     </div>
                 </article>
-            `).join('');
-        }
-
-        function extractCountry(title) {
-            const match = title.match(/\(([^)]+)\)/);
-            return match ? match[1] : '全球';
-        }
-
-        function cleanTitle(title) {
-            return title.replace(/\s*\([^)]+\)\s*/g, '').trim();
+            `}).join('');
         }
 
         // 初始化
