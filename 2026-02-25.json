@@ -1,0 +1,80 @@
+{
+  "date": "2026-02-25",
+  "articles": [
+    {
+      "title": "US BESS deployments to increase to 70GWh this year, SEIA says in first sector-dedicated report (美國)",
+      "keyPoints": [
+        "SEIA發布首份储能市场展望報告(ESMO)，預測2026年美國BESS部署將達70GWh",
+        "2025年美國BESS安裝超過28GW/57GWh，年同比增長29%",
+        "公用事業規模市場主要由加州、德州和亞利桑那州支撐，佔總容量74%",
+        "加州以59,815MWh領先，其次是德州26,271MWh和亞利桑那州19,334MWh",
+        "住宅市場在25D稅收抵免到期後出現顯著增長",
+        "48%儲能容量與太陽能配對，51%為獨立BESS，1%與風能配對",
+        "2026年預計投資252億美元，到2030年年度安裝將超過47GW/110GWh",
+        "加州、德州、亞利桑那引領產業，前三州遙遙領先"
+      ],
+      "originalContent": "According to the US trade association group, the Solar Energy Industries Association (SEIA), US battery energy storage system (BESS) deployments are set to increase to 70GWh in 2026. SEIA's Energy Storage Market Outlook (ESMO) shows 2025 installations surpassed 28GW/57GWh, a 29% year-over-year increase.",
+      "sourceUrl": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/"
+    },
+    {
+      "title": "Scatec reaches COD on Phase 1 of 1.1GW Obelisk solar-plus-storage plant in Egypt (埃及)",
+      "keyPoints": [
+        "Scatec位於埃及的1.1GW Obelisk太陽能加儲能項目一期已達到商業運營",
+        "這將成為埃及和非洲最大的太陽能加儲能項目",
+        "一期包含536MW太陽能PV和約200MWh儲能系統",
+        "二期將增加564MW太陽能，預計2026年夏季投運",
+        "2024年9月簽署PPA以來快速建設，展現執行能力",
+        "與埃及鋁業簽訂25年購電協議，為該國最大工業電力用戶供電",
+        "Norfund收購25%股份，EDF收購20%股份",
+        "展現大型複雜項目提前並按預算完成的能力"
+      ],
+      "originalContent": "Independent power producer (IPP) Scatec has reached commercial operations for the first phase of its 1.1GW Obelisk solar-plus-storage project in Egypt. Once fully operational, the project will become the country's and continent's largest solar-plus-storage project.",
+      "sourceUrl": "https://www.pv-tech.org/scatec-reaches-cod-on-phase-1-of-1-1gw-obelisk-solar-plus-storage-plant-in-egypt/"
+    },
+    {
+      "title": "Atlas Renewable Energy secures US$3 billion for Latin American solar-plus-storage projects (拉丁美洲)",
+      "keyPoints": [
+        "Atlas Renewable Energy獲得30億美元融資，為拉丁美洲太陽能和BESS組合再融資",
+        "這是該地區非傳統可再生能源最大的企業再融資項目",
+        "融資主要支持智利超過1GW太陽能和200MW/800MWh儲能項目",
+        "巴西546MW太陽能和墨西哥429MW太陽能項目獲得支持",
+        "共有10個項目獲得再融資，其中2個太陽能加儲能項目正在建設中",
+        "包括Copiapó和Estepa項目，以及BESS del Desierto獨立儲能項目",
+        "投資者包括Global Infrastructure Partners (GIP)、Banco Santander、BNP Paribas等",
+        "反映全球金融機構對該公司品牌和區域策略的信心"
+      ],
+      "originalContent": "US independent power producer (IPP) Atlas Renewable Energy has secured refinancing of US$3 billion for a solar and battery energy storage system (BESS) portfolio in Latin America. The company described the deal as the 'largest corporate refinancing for non-conventional renewable energy' in the region.",
+      "sourceUrl": "https://www.pv-tech.org/atlas-renewable-energy-secures-us3-billion-latin-american-solar-plus-storage-projects/"
+    },
+    {
+      "title": "European power price volatility creating battery and co-location opportunities (歐洲)",
+      "keyPoints": [
+        "歐洲可再生能源滲透率提高導致電價波動，為BESS開發商創造新機會",
+        "德國 intra-day市場深度和交易機會帶來最持續的商業機會",
+        "德國2025年新增17GW太陽能，對比約2GW運營儲能",
+        "去年5月德國負電價達-450歐元/MWh",
+        "西班牙由PV驅動的波動性導致每天眾多負電價時段",
+        "西班牙許多PPA在零或負電價時不結算，造成痛苦",
+        "高太陽能發電與儲能不足形成市場機會",
+        "BESS可為歐洲能源混合提供靈活性服務"
+      ],
+      "originalContent": "Increased renewable energy penetration in Europe's leading clean energy markets will lead to more fluctuations in power prices, creating new opportunities for battery energy storage system (BESS) developers and co-located solar-plus-storage projects.",
+      "sourceUrl": "https://www.pv-tech.org/european-power-price-volatility-creating-battery-co-location-opportunities/"
+    },
+    {
+      "title": "Lightsource bp sells 1GW Australian solar PV portfolio with 800MWh co-located battery storage to Aula Energy (澳洲)",
+      "keyPoints": [
+        "Lightsource bp向Aula Energy出售澳洲1GW營運太陽能PV組合",
+        "該組合包含800MW共置儲能項目的選項",
+        "Aula Energy總部位於澳洲，是可再生能源公司",
+        "此交易展示澳洲太陽能加儲能市場的活躍投資",
+        "項目位於昆士蘭，具備擴展儲能容量潛力",
+        "Lightsource bp持續在全球太陽能市場進行資產優化",
+        "共置儲能在澳洲市場需求持續增長",
+        "顯示大型太陽能開發商與儲能整合的趨勢"
+      ],
+      "originalContent": "Lightsource bp has sold a 1GW operational solar PV portfolio, with options to build 800MW of co-located battery storage, in Australia to Australian-headquartered renewable energy company Aula Energy.",
+      "sourceUrl": "https://www.energy-storage.news/lightsource-bp-sells-800mwh-of-co-located-battery-storage-in-australia-to-aula-energy/"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "歐盟儲能進展落後 | 西班牙FRV大動作佈局 (全球)",
+      "keyPoints": [
+        "歐盟各國在儲能部署和電網靈活性方面進展有限",
+        "西班牙FRV宣布1.2GW/5GWh儲能項目組合",
+        "響應2025年伊比利亞半島大停電後的電網韌性需求",
+        "Royal Decree 997/2025簡化儲能併網流程",
+        "優先支援已營運再生能源設施的儲能混合項目"
+      ],
+      "originalContent": "European Union countries have made limited progress on energy storage deployment and electricity network flexibility recommendations. FRV's BESS drive in Spain is a response to last year's Iberian power outage.",
+      "sourceUrl": "https://www.energy-storage.news/frv-set-for-1-2gw-5gwh-bess-rollout-in-spain/"
+    },
+    {
+      "title": "BESS銀行性重新定義 | 營運表現成關鍵 (全球)",
+      "keyPoints": [
+        "營運經驗、信譽和優化表現成為BESS銀行性關鍵",
+        "從「已安裝容量」轉向「營運表現」評估",
+        "Enspired執行長強調技術優化的重要性"
+      ],
+      "originalContent": "Operational experience, credibility and optimisation performance are becoming key to BESS bankability, writes Jürgen Mayerhofer, CEO and co-founder of optimiser Enspired.",
+      "sourceUrl": "https://www.energy-storage.news/redefining-bess-bankability-in-2026-from-installed-capacity-to-operational-performance/"
+    },
+    {
+      "title": "🇺🇸 美國》Hydrostor Willow Rock簽署400MWh協議",
+      "keyPoints": [
+        "CC Power與Hydrostor簽署400MWh Willow Rock LDES項目協議",
+        "PowerSecure在美國新墨西哥州建設微電網",
+        "ESS Inc收購VoltStorage"
+      ],
+      "originalContent": "In this US news roundup, CC Power signs an agreement with Hydrostor for 400MWh of its Willow Rock LDES project, PowerSecure builds microgrids in New Mexico, and ESS Inc acquires VoltStorage.",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "NTPC啟動100MWh釩液流電池招標 (印度)",
+      "keyPoints": [
+        "印度首個大規模非鋰電池儲能項目",
+        "100MWh VRFB放電時間5.9小時",
+        "同時測試Energy Dome CO2 Battery（20MW/160MWh）",
+        "目標2035年100GW抽水蓄能"
+      ],
+      "originalContent": "NTPC Renewable Energy issued an invitation for bids for a 100MWh vanadium redox flow battery system, India's first large-scale non-lithium battery storage project.",
+      "sourceUrl": "https://www.energy-storage.news/india-energy-storage-tech-scope-widens-with-100mwh-flow-battery-100gw-pumped-hydro-and-grid-forming-bess-prospects/"
+    },
+    {
+      "title": "Fraunhofer再創太陽能效率紀錄 (德國)",
+      "keyPoints": [
+        "德國Fraunhofer太陽能研究所宣布串聯PV模組效率新紀錄",
+        "Microsoft 2025年100%使用再生能源供電",
+        "中國逆變器製造商主導PV Tech Research銀行性評級"
+      ],
+      "originalContent": "Researchers at Germany's Fraunhofer Institute for Solar Energy have claimed two new record efficiencies in tandem PV modules. Microsoft met all of its electricity demand with renewables in 2025.",
+      "sourceUrl": "https://www.pv-tech.org/"
+    }
+  ]
+}
