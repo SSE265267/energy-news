@@ -1,0 +1,24 @@
+name: Daily Energy News Update
+
+on:
+  schedule:
+    - cron: '30 8 * * *'  # 每天 08:30 UTC (16:30 台灣時間)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch energy news
+        run: |
+          echo "Fetching energy news from sources..."
+          
+      - name: Commit and push
+        run: |
+          git config --global user.name "Energy Bot"
+          git config --global user.email "bot@github.com"
+          git add .
+          git commit -m "Update energy news $(date +%Y-%m-%d)" || echo "No changes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
