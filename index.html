@@ -6,315 +6,252 @@
     <title>能源資訊快報</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary: #10b981;
-            --primary-dark: #059669;
-            --secondary: #3b82f6;
-            --bg: #f0f9ff;
-            --card-bg: #ffffff;
-            --text: #1e293b;
-            --text-light: #64748b;
-        }
-        
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --primary: #059669;
+            --primary-light: #10b981;
+            --accent: #f59e0b;
+            --text: #111827;
+            --text-secondary: #6b7280;
+            --bg: #f9fafb;
+            --card-bg: #ffffff;
+            --border: #e5e7eb;
+        }
         
         body {
             font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg);
-            min-height: 100vh;
-            padding: 20px;
             color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
         }
         
-        .bg-pattern {
-            position: fixed;
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 24px 20px;
+            position: sticky;
             top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background: 
-                radial-gradient(circle at 20% 80%, rgba(16, 185, 129, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 50% 50%, rgba(245, 158, 11, 0.05) 0%, transparent 70%);
-            animation: bgShift 20s ease-in-out infinite;
+            z-index: 100;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
         
-        @keyframes bgShift {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
+        .header-content {
+            max-width: 680px;
+            margin: 0 auto;
         }
         
-        .container { max-width: 800px; margin: 0 auto; }
-        
-        header {
-            text-align: center;
-            padding: 30px 20px;
-            margin-bottom: 20px;
-        }
-        
-        .logo {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 8px;
-        }
-        
-        .logo-icon {
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .header h1 {
             font-size: 24px;
-            animation: pulse 2s ease-in-out infinite;
-            box-shadow: 0 6px 24px rgba(16, 185, 129, 0.3);
-        }
-        
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-        }
-        
-        header h1 {
-            font-size: 32px;
             font-weight: 700;
-            background: linear-gradient(135deg, var(--primary-dark), var(--secondary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            margin-bottom: 4px;
         }
         
-        header p {
-            color: var(--text-light);
+        .header p {
             font-size: 14px;
-            margin-top: 4px;
+            opacity: 0.9;
         }
         
+        /* Date Tabs */
         .date-tabs {
-            display: flex;
-            gap: 6px;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 24px;
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 16px 0;
+            position: sticky;
+            top: 73px;
+            z-index: 99;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
         }
         
-        .date-tabs button {
-            padding: 10px 16px;
-            background: var(--card-bg);
-            border: 2px solid transparent;
-            border-radius: 20px;
-            color: var(--text-light);
-            font-size: 13px;
+        .date-tabs::-webkit-scrollbar { display: none; }
+        
+        .date-tabs-inner {
+            max-width: 680px;
+            margin: 0 auto;
+            display: flex;
+            gap: 8px;
+        }
+        
+        .date-tab {
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 14px;
             font-weight: 500;
             cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-radius: 20px 20px 0 0;
+            transition: all 0.2s;
+            white-space: nowrap;
             font-family: inherit;
         }
         
-        .date-tabs button:hover {
-            border-color: var(--primary);
-            color: var(--primary);
-        }
-        
-        .date-tabs button.active {
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            color: white;
-            box-shadow: 0 4px 16px rgba(16, 185, 129, 0.4);
-        }
-        
-        .content-section {
-            display: none;
-        }
-        
-        .content-section.active {
-            display: block;
-            animation: fadeIn 0.3s ease;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .article {
-            background: var(--card-bg);
-            border-radius: 18px;
-            margin-bottom: 16px;
-            overflow: hidden;
-            box-shadow: 0 4px 20px -2px rgba(16, 185, 129, 0.15);
-            border: 1px solid rgba(16, 185, 129, 0.1);
-        }
-        
-        .article:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 30px -4px rgba(16, 185, 129, 0.2);
-        }
-        
-        .article-header {
-            padding: 16px 20px;
-            border-bottom: 1px solid #f1f5f9;
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-        }
-        
-        .country-flag { font-size: 22px; }
-        
-        .article-title-area { flex: 1; }
-        
-        .country-tag {
-            display: inline-block;
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-size: 10px;
-            font-weight: 600;
-            margin-bottom: 4px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
-        .country-tag.usa { background: #dbeafe; color: #1d4ed8; }
-        .country-tag.europe { background: #dcfce7; color: #15803d; }
-        .country-tag.china { background: #fee2e2; color: #dc2626; }
-        .country-tag.india { background: #ffedd5; color: #ea580c; }
-        .country-tag.australia { background: #cffafe; color: #0891b2; }
-        .country-tag.global { background: #f3e8ff; color: #7c3aed; }
-        
-        .article h3 {
-            font-size: 15px;
+        .date-tab:hover {
+            background: var(--bg);
             color: var(--text);
+        }
+        
+        .date-tab.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        /* Main Content */
+        .main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 20px 16px;
+        }
+        
+        /* News Cards */
+        .news-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .news-card:last-child { margin-bottom: 0; }
+        
+        .news-country {
+            display: inline-block;
+            padding: 4px 10px;
+            background: var(--bg);
+            color: var(--primary);
+            font-size: 12px;
             font-weight: 600;
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .news-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 12px;
             line-height: 1.4;
         }
         
-        .article-body { padding: 16px 20px; }
-        
-        .key-points {
-            background: linear-gradient(135deg, #f0fdf4, #eff6ff);
-            border-radius: 12px;
-            padding: 14px 18px;
-            border: 1px solid rgba(16, 185, 129, 0.15);
+        .news-keypoints {
+            list-style: none;
         }
         
-        .key-points h4 {
-            font-size: 11px;
-            color: var(--primary-dark);
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: flex;
-            align-items: center;
-            gap: 4px;
+        .news-keypoints li {
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+            color: var(--text);
+            font-size: 14px;
+            border-bottom: 1px solid var(--border);
         }
         
-        .key-points h4::before { content: "⚡"; }
+        .news-keypoints li:last-child { border-bottom: none; }
         
-        .key-points ol { padding-left: 16px; margin: 0; }
-        
-        .key-points li { 
-            margin-bottom: 6px; 
-            font-size: 13px; 
-            color: #475569;
-            line-height: 1.5;
+        .news-keypoints li::before {
+            content: "•";
+            color: var(--primary);
+            position: absolute;
+            left: 4px;
+            font-weight: bold;
         }
         
-        .key-points li::marker { color: var(--primary); }
-        
-        .article-footer {
-            padding: 12px 20px;
-            background: #fafafa;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-            border-top: 1px solid #f1f5f9;
+        .news-source {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
         }
         
-        .original-content {
-            font-size: 12px;
-            color: #94a3b8;
-            font-style: italic;
-            flex: 1;
-            min-width: 180px;
-        }
-        
-        .source-link {
+        .news-source a {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 13px;
             display: inline-flex;
             align-items: center;
             gap: 4px;
-            padding: 8px 16px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            color: white;
-            text-decoration: none;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 500;
-            transition: all 0.3s ease;
         }
         
-        .source-link:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+        .news-source a:hover {
+            text-decoration: underline;
         }
         
-        .floating-icon {
-            position: fixed;
-            font-size: 28px;
-            opacity: 0.12;
-            animation: float 6s ease-in-out infinite;
-            pointer-events: none;
-            z-index: -1;
-        }
-        
-        .floating-icon:nth-child(1) { top: 10%; left: 5%; animation-delay: 0s; }
-        .floating-icon:nth-child(2) { top: 30%; right: 8%; animation-delay: 1s; }
-        .floating-icon:nth-child(3) { bottom: 20%; left: 10%; animation-delay: 2s; }
-        .floating-icon:nth-child(4) { bottom: 40%; right: 5%; animation-delay: 3s; }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(-15px) rotate(5deg); }
-        }
-        
+        /* Loading */
         .loading {
             text-align: center;
-            padding: 40px;
-            color: var(--text-light);
+            padding: 40px 20px;
+            color: var(--text-secondary);
         }
         
-        @media (max-width: 600px) {
-            header h1 { font-size: 26px; }
-            .date-tabs button { padding: 8px 12px; font-size: 12px; }
-            .article-header, .article-body, .article-footer { padding: 12px 14px; }
+        .loading-spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 12px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text-secondary);
+            font-size: 12px;
+            border-top: 1px solid var(--border);
+            margin-top: 24px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 480px) {
+            .header { padding: 20px 16px; }
+            .header h1 { font-size: 20px; }
+            .news-card { padding: 16px; }
+            .news-title { font-size: 16px; }
+            .news-keypoints li { font-size: 13px; }
         }
     </style>
 </head>
 <body>
-    <div class="bg-pattern"></div>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <h1>能源資訊快報</h1>
-            </div>
-            <p>每日國際儲能 • 太陽能 • 電池技術最新消息</p>
-        </header>
-        
-        <nav class="date-tabs" id="dateTabs">
-            <!-- Generated by JavaScript -->
-        </nav>
-        
-        <div id="contentArea">
-            <div class="loading">載入中...</div>
+    <header class="header">
+        <div class="header-content">
+            <h1>能源資訊快報</h1>
+            <p>每日國際儲能、太陽能、電池技術最新消息</p>
         </div>
-    </div>
+    </header>
     
+    <nav class="date-tabs">
+        <div class="date-tabs-inner" id="dateTabs"></div>
+    </nav>
+    
+    <main class="main" id="newsContainer">
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            載入中...
+        </div>
+    </main>
+    
+    <footer class="footer">
+        資料來源：Energy Storage News • PV Tech
+    </footer>
+
     <script>
         // 動態生成最近7天的日期
         const dates = [];
@@ -327,15 +264,20 @@
             const file = `${d.getFullYear()}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}.json`;
             dates.push({ id, label: `${month}/${day}`, file });
         }
-        
+
         let newsData = {};
         let currentDate = 'd0226';
-        
+
         async function loadAllNews() {
+            const container = document.getElementById('newsContainer');
+            container.innerHTML = '<div class="loading"><div class="loading-spinner"></div>載入中...</div>';
+            
             for (const d of dates) {
                 try {
                     const resp = await fetch(d.file);
-                    newsData[d.id] = await resp.json();
+                    if (resp.ok) {
+                        newsData[d.id] = await resp.json();
+                    }
                 } catch(e) {
                     console.error('Failed to load', d.file, e);
                 }
@@ -343,124 +285,53 @@
             renderTabs();
             renderContent(currentDate);
         }
-        
+
         function renderTabs() {
             const tabs = document.getElementById('dateTabs');
             tabs.innerHTML = dates.map(d => 
-                `<button class="${d.id === currentDate ? 'active' : ''}" onclick="switchDate('${d.id}')">${d.label}</button>`
+                `<button class="date-tab ${d.id === currentDate ? 'active' : ''}" onclick="switchDate('${d.id}')">${d.label}</button>`
             ).join('');
         }
-        
+
         function switchDate(id) {
             currentDate = id;
             renderTabs();
             renderContent(id);
         }
-        
-        function getFlagEmoji(countryName) {
-            const map = {
-                '美國': '🇺🇸', '埃及': '🇪🇬', '拉丁美洲': '🌎', '歐洲': '🇪🇺',
-                '澳洲': '🇦🇺', '西班牙': '🇪🇸', '印度': '🇮🇳', '中國': '🇨🇳', 
-                '德國': '🇩🇪', '北歐': '🇸🇪', '全球': '🌍', '烏克蘭': '🇺🇦'
-            };
-            return map[countryName] || '🌍';
-        }
-        
-        function extractCountryAndFlag(title) {
-            // 格式1: 英文標題 + (國家) - 如 "US BESS... (美國)"
-            const parenMatch = title.match(/\(([^)]+)\)$/);
-            if (parenMatch) {
-                return { country: parenMatch[1], flag: getFlagEmoji(parenMatch[1]) };
-            }
-            
-            // 格式2: 舊格式 - 如 "🇪🇸 西班牙》FRV..." 
-            // 檢查是否包含 》
-            const guaIdx = title.indexOf('》');
-            if (guaIdx > 0) {
-                const beforeGuai = title.substring(0, guaIdx).trim();
-                // 檢查是否為 "flag + 空白 + 國家名" 或 "flag + 國家名"
-                // 先嘗試正則匹配 flag (Regional Indicator Symbols)
-                const oldFormatMatch = beforeGuai.match(/^(\uD83C\uDDE6-\uD83C\uDDFA{2})\s*(.+)$/);
-                if (oldFormatMatch) {
-                    return { country: oldFormatMatch[2].trim(), flag: oldFormatMatch[1] };
-                }
-                // 如果上面沒匹配，可能是 "flag + 國家名" (沒有空格)
-                if (beforeGuai.length >= 4) {
-                    const first2 = beforeGuai.substring(0, 2);
-                    const rest = beforeGuai.substring(2).trim();
-                    // 檢查前兩個是否是 flag
-                    if (first2.charCodeAt(0) >= 0xD83C && first2.charCodeAt(0) <= 0xD83C) {
-                        return { country: rest, flag: first2 };
-                    }
-                }
-                // 可能是純國家名
-                return { country: beforeGuai, flag: getFlagEmoji(beforeGuai) };
-            }
-            
-            return { country: '全球', flag: '🌍' };
-        }
-        
+
         function renderContent(id) {
+            const container = document.getElementById('newsContainer');
             const data = newsData[id];
-            const content = document.getElementById('contentArea');
             
-            if (!data) {
-                content.innerHTML = '<div class="loading">無法載入資料</div>';
+            if (!data || !data.articles || data.articles.length === 0) {
+                container.innerHTML = '<div class="loading">尚無新聞資料</div>';
                 return;
             }
-            
-            const articles = data.articles || [];
-            
-            content.innerHTML = `
-                <div class="content-section active">
-                    ${articles.map(art => {
-                        const { country, flag } = extractCountryAndFlag(art.title);
-                        
-                        // 移除標題中的國家部分，只保留主要標題
-                        let titleText = art.title;
-                        // 移除結尾的 (國家)
-                        titleText = titleText.replace(/\s*\([^)]+\)$/, '');
-                        // 移除開頭的 flag + 國家 + 》
-                        const guaIdx = titleText.indexOf('》');
-                        if (guaIdx > 0) {
-                            titleText = titleText.substring(guaIdx + 1);
-                        }
-                        
-                        const regionClass = {
-                            '美國': 'usa', '埃及': 'europe', '拉丁美洲': 'global', '歐洲': 'europe',
-                            '澳洲': 'australia', '西班牙': 'europe', '印度': 'india', 
-                            '中國': 'china', '德國': 'europe', '北歐': 'europe', '全球': 'global',
-                            '烏克蘭': 'europe'
-                        }[country] || 'global';
-                        
-                        return `
-                        <div class="article">
-                            <div class="article-header">
-                                <span class="country-flag">${flag}</span>
-                                <div class="article-title-area">
-                                    <span class="country-tag ${regionClass}">${country}</span>
-                                    <h3>${titleText}</h3>
-                                </div>
-                            </div>
-                            <div class="article-body">
-                                <div class="key-points">
-                                    <h4>重點摘要</h4>
-                                    <ol>
-                                        ${(art.keyPoints || []).map(p => `<li>${p}</li>`).join('')}
-                                    </ol>
-                                </div>
-                            </div>
-                            <div class="article-footer">
-                                <div class="original-content">📄 ${art.originalContent || ''}</div>
-                                <a href="${art.sourceUrl || '#'}" target="_blank" class="source-link">🔗 閱讀原文</a>
-                            </div>
-                        </div>
-                        `;
-                    }).join('')}
-                </div>
-            `;
+
+            container.innerHTML = data.articles.map(article => `
+                <article class="news-card">
+                    <span class="news-country">${extractCountry(article.title)}</span>
+                    <h2 class="news-title">${cleanTitle(article.title)}</h2>
+                    <ul class="news-keypoints">
+                        ${article.keyPoints.map(point => `<li>${point}</li>`).join('')}
+                    </ul>
+                    <div class="news-source">
+                        <a href="${article.sourceUrl}" target="_blank" rel="noopener">閱讀原文 →</a>
+                    </div>
+                </article>
+            `).join('');
         }
-        
+
+        function extractCountry(title) {
+            const match = title.match(/\(([^)]+)\)/);
+            return match ? match[1] : '全球';
+        }
+
+        function cleanTitle(title) {
+            return title.replace(/\s*\([^)]+\)\s*/g, '').trim();
+        }
+
+        // 初始化
         loadAllNews();
     </script>
 </body>
