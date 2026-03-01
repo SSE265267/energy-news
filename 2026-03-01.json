@@ -1,0 +1,65 @@
+{
+  "date": "2026-03-01",
+  "articles": [
+    {
+      "title": "Xcel Energy Will Install 30GWh of Form Energy's Iron-Air Batteries at Google Data Center in Minnesota（美國）",
+      "keyPoints": [
+        "Utility Xcel Energy將在Google位於明尼蘇達州Pine Island的資料中心安裝30GWh的Form Energy鐵空氣電池",
+        "這是Form Energy鐵空氣電池技術的重大商業部署案例",
+        "鐵空氣電池是一種新興的長時儲能技術，適合電網規模的應用",
+        "此專案顯示科技巨頭與公用事業公司在儲能領域的合作趨勢",
+        "資料中心的高耗電需求推動了儲能解決方案的發展"
+      ],
+      "originalContent": "Utility Xcel Energy will install 30GWh of US startup Form Energy's iron-air batteries at a data centre in Pine Island, Minnesota, belonging to tech giant Google.",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "Ukraine Government Views Energy Storage as Strategic National Importance（烏克蘭）",
+      "keyPoints": [
+        "烏克蘭政府將能源儲能視為國家戰略重要工具",
+        "在俄羅斯攻擊持續的情況下，儲能成為關鍵基礎設施",
+        "烏克蘭積極發展儲能以確保能源安全和電網穩定",
+        "能源儲能被視為國家復甦和未來能源規劃的核心",
+        "此舉顯示戰爭中國家對能源獨立的重視"
+      ],
+      "originalContent": "Ukraine's government sees energy storage as a tool of strategic national importance as the country weathers Russian attacks and looks to the future.",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "Trina Storage Invests in Gore Street's EU BESS Fund with 12GWh Target（歐洲）",
+      "keyPoints": [
+        "Trina Storage成為Gore Street Capital新成立的歐洲BESS基金的投資者",
+        "該基金目標規模為12GWh",
+        "Trina Storage是Trinasolar的儲能子公司",
+        "此投資顯示中國儲能企業積極拓展歐洲市場",
+        "歐洲BESS市場持續吸引全球資金流入"
+      ],
+      "originalContent": "Trina Storage, the BESS arm of Trinasolar, has made a commitment to invest in Gore Street Capital's new EU-focused private BESS fund.",
+      "sourceUrl": "https://www.energy-storage.news/trina-storage-to-invest-in-gore-streets-eu-bess-fund-12gwh-targeted/"
+    },
+    {
+      "title": "Germany's Grid Fees Threaten Energy Storage Market Growth（德國）",
+      "keyPoints": [
+        "德國監管機構可能對大型儲能專案收取電網使用費",
+        "此決定可能阻礙德國能源儲能市場的成長",
+        "德國儲能正面臨法規不確定性的挑戰",
+        "慣性支付(inertia payments)的政策方向也引發關注",
+        "監管環境的變化影響投資者信心"
+      ],
+      "originalContent": "Germany's energy storage market growth will be hampered by a regulatory decision to potentially charge utility-scale project operators fees for use of the grid.",
+      "sourceUrl": "https://www.energy-storage.news/germanys-grid-fees-and-inertia-payments-highlight-contrasts-in-energy-storage-regulation/"
+    },
+    {
+      "title": "Philippines DOE Mandates Energy Storage for Large-Scale Renewable Energy Plants（菲律賓）",
+      "keyPoints": [
+        "菲律賓能源部要求大型再生能源電廠必須整合儲能系統",
+        "此政策適用於所有大規模再生能源開發案",
+        "儲能整合可提高電網穩定性和可再生能源滲透率",
+        "這是亞太區最新強制儲能的法規",
+        "開發商需調整專案設計以符合新規範"
+      ],
+      "originalContent": "Large-scale renewable energy power plant developers in the Philippines have been instructed to integrate energy storage into their proposed facilities.",
+      "sourceUrl": "https://www.energy-storage.news/philippines-department-of-energy-instructs-renewable-energy-plants-to-add-energy-storage/"
+    }
+  ]
+}
