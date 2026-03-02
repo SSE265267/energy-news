@@ -1,0 +1,65 @@
+{
+  "date": "2026-03-02",
+  "articles": [
+    {
+      "title": "Xcel Energy將安裝30GWh Form Energy鐵空電池於Google資料中心（美國）",
+      "keyPoints": [
+        "Xcel Energy將在明尼蘇達州Pine Island的Google資料中心安裝30GWh鐵空電池",
+        "採用美國新創Form Energy的鐵空電池技術",
+        "這是Form Energy獲得的最大規模部署協議之一",
+        "鐵空電池技術具有成本優勢，適合長時間儲能",
+        "資料中心儲能需求快速增長以支撐AI運算基礎設施"
+      ],
+      "originalContent": "Utility Xcel Energy will install 30GWh of US startup Form Energy's iron-air batteries at a data centre in Pine Island, Minnesota, belonging to tech giant Google.",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "美國DOE提供 Southern Company 265億美元 loan（美國）",
+      "keyPoints": [
+        "美國能源部向Southern Company提供265億美元贷款",
+        "將開發或升級超過16GW發電容量",
+        "包括5GW天然氣、6GW核電升級、水力發電、儲能系統及1300英里輸電線",
+        "預計每年為消費者節省超過3億美元利息成本",
+        "Alabama Power規劃2028年起部署BESS，2033年起部署12小時中長時儲能"
+      ],
+      "originalContent": "The US Department of Energy (DOE) has closed a US$26.5 billion loan package to two wholly owned subsidiaries of utility Southern Company, in Georgia and Alabama, US. The two loans will develop or enhance over 16GW of generating capacity.",
+      "sourceUrl": "https://www.energy-storage.news/us-doe-closes-us26-5-billion-loan-package-to-utility-southern-company-for-16gw-of-capacity-including-bess/"
+    },
+    {
+      "title": "德國電網費用與慣性支付法規引發投資疑慮（德國）",
+      "keyPoints": [
+        "德國監管機構BNetzA可能對儲能項目收取電網費用",
+        "現有電網費用豁免將於2029年中到期，投資人面臨雙重不確定性",
+        "德國規劃2037年前部署68GW/135GWh儲能（目前僅2.8GW）",
+        "新規範提供慣性服務(Momentanreserve)支付，為儲能提供額外10年收入來源",
+        "技術門檻提高但為BESS帶來長期合約收益"
+      ],
+      "originalContent": "Germany's energy storage market growth will be hampered by a regulatory decision to potentially charge utility-scale project operators fees for use of the grid. At the same time, Germany's new mechanism for paying for inertia system stability services is a unique proposition in Europe.",
+      "sourceUrl": "https://www.energy-storage.news/germanys-grid-fees-and-inertia-payments-highlight-contrasts-in-energy-storage-regulation/"
+    },
+    {
+      "title": "澳洲Waratah超級電池更換變壓器將於2026年Q3交付（澳洲）",
+      "keyPoints": [
+        "Akaysha Energy確認澳洲850MW Waratah Super Battery更換變壓器將於2026年Q3交付",
+        "這是澳洲最大的電池儲能項目之一",
+        "項目完工後將成為南半球最大儲能設施",
+        "原變壓器交付延遲影響項目進度",
+        "變壓器到位後可加速項目最終調試"
+      ],
+      "originalContent": "Akaysha Energy has confirmed that the replacement transformer for Australia's 850MW Waratah Super Battery will be delivered in Q3 2026.",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "菲律賓DOE要求大型再生能源電廠整合儲能（菲律賓）",
+      "keyPoints": [
+        "菲律賓能源部要求大型再生能源開發商整合儲能系統",
+        "所有大規模再生能源電廠都必須添加儲能設施",
+        "這是該國推動能源轉型的關鍵政策",
+        "儲能將有助於解決再生能源間歇性問題",
+        "提升電網穩定性和供電可靠性"
+      ],
+      "originalContent": "Large-scale renewable energy power plant developers in the Philippines have been instructed to integrate energy storage into their proposed facilities.",
+      "sourceUrl": "https://www.energy-storage.news/philippines-department-of-energy-instructs-renewable-energy-plants-to-add-energy-storage/"
+    }
+  ]
+}
