@@ -337,24 +337,26 @@
                 '智利': '🇨🇱', 'Chile': '🇨🇱',
                 '墨西哥': '🇲🇽', 'Mexico': '🇲🇽',
                 '埃及': '🇪🇬', '埃及': '🇪🇬', 'Egypt': '🇪🇬',
+                '菲律賓': '🇵🇭', '菲律宾': '🇵🇭', 'Philippines': '🇵🇭',
                 '西班牙': '🇪🇸', 'Spain': '🇪🇸',
                 '義大利': '🇮🇹', '意大利': '🇮🇹', 'Italy': '🇮🇹',
                 '韓國': '🇰🇷', '韩国': '🇰🇷', 'South Korea': '🇰🇷', 'Korea': '🇰🇷',
                 '台灣': '🇹🇼', '台湾': '🇹🇼', 'Taiwan': '🇹🇼',
                 '歐洲': '🇪🇺', '欧洲': '🇪🇺', 'Europe': '🇪🇺',
+                '烏克蘭': '🇺🇦', '乌克兰': '🇺🇦', 'Ukraine': '🇺🇦',
+                '西班牙': '🇪🇸', 'Spain': '🇪🇸',
                 '拉丁美洲': '🌎', 'Latin America': '🌎',
                 '全球': '🌍', '世界': '🌍', 'World': '🌍', 'Global': '🌍'
             };
             return flags[country] || '🌐';
         }
 
-        function extractCountry(title) {
-            const match = title.match(/\(([^)]+)\)/);
-            return match ? match[1] : '全球';
+        function extractCountry(article) {
+            return article.country || '全球';
         }
 
         function cleanTitle(title) {
-            return title.replace(/\s*\([^)]+\)\s*/g, '').trim();
+            return title.trim();
         }
 
         async function loadAllNews() {
@@ -397,7 +399,7 @@
             }
 
             container.innerHTML = data.articles.map((article, index) => {
-                const country = extractCountry(article.title);
+                const country = extractCountry(article);
                 const flag = getCountryFlag(country);
                 return `
                 <article class="news-card" style="animation-delay: ${index * 0.1}s">

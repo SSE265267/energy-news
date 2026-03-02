@@ -2,7 +2,8 @@
   "date": "2026-03-02",
   "articles": [
     {
-      "title": "Xcel Energy將安裝30GWh Form Energy鐵空電池於Google資料中心（美國）",
+      "title": "Xcel Energy將安裝30GWh Form Energy鐵空電池於Google資料中心",
+      "country": "美國",
       "keyPoints": [
         "Xcel Energy將在明尼蘇達州Pine Island的Google資料中心安裝30GWh鐵空電池",
         "採用美國新創Form Energy的鐵空電池技術",
@@ -14,9 +15,10 @@
       "sourceUrl": "https://www.energy-storage.news/"
     },
     {
-      "title": "美國DOE提供 Southern Company 265億美元 loan（美國）",
+      "title": "美國DOE提供 Southern Company 265億美元貸款",
+      "country": "美國",
       "keyPoints": [
-        "美國能源部向Southern Company提供265億美元贷款",
+        "美國能源部向Southern Company提供265億美元貸款",
         "將開發或升級超過16GW發電容量",
         "包括5GW天然氣、6GW核電升級、水力發電、儲能系統及1300英里輸電線",
         "預計每年為消費者節省超過3億美元利息成本",
@@ -26,7 +28,8 @@
       "sourceUrl": "https://www.energy-storage.news/us-doe-closes-us26-5-billion-loan-package-to-utility-southern-company-for-16gw-of-capacity-including-bess/"
     },
     {
-      "title": "德國電網費用與慣性支付法規引發投資疑慮（德國）",
+      "title": "德國電網費用與慣性支付法規引發投資疑慮",
+      "country": "德國",
       "keyPoints": [
         "德國監管機構BNetzA可能對儲能項目收取電網費用",
         "現有電網費用豁免將於2029年中到期，投資人面臨雙重不確定性",
@@ -38,7 +41,8 @@
       "sourceUrl": "https://www.energy-storage.news/germanys-grid-fees-and-inertia-payments-highlight-contrasts-in-energy-storage-regulation/"
     },
     {
-      "title": "澳洲Waratah超級電池更換變壓器將於2026年Q3交付（澳洲）",
+      "title": "澳洲Waratah超級電池更換變壓器將於2026年Q3交付",
+      "country": "澳洲",
       "keyPoints": [
         "Akaysha Energy確認澳洲850MW Waratah Super Battery更換變壓器將於2026年Q3交付",
         "這是澳洲最大的電池儲能項目之一",
@@ -50,7 +54,8 @@
       "sourceUrl": "https://www.energy-storage.news/"
     },
     {
-      "title": "菲律賓DOE要求大型再生能源電廠整合儲能（菲律賓）",
+      "title": "菲律賓DOE要求大型再生能源電廠整合儲能",
+      "country": "菲律賓",
       "keyPoints": [
         "菲律賓能源部要求大型再生能源開發商整合儲能系統",
         "所有大規模再生能源電廠都必須添加儲能設施",

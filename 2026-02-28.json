@@ -2,7 +2,8 @@
   "date": "2026-02-28",
   "articles": [
     {
-      "title": "Xcel Energy將在Google資料中心安裝30GWh鐵空氣電池（美國）",
+      "title": "Xcel Energy將在Google資料中心安裝30GWh鐵空氣電池",
+      "country": "美國",
       "keyPoints": [
         "公用事業公司Xcel Energy將在明尼蘇達州Pine Island的Google資料中心安裝30GWh的Form Energy鐵空氣電池",
         "這是美國至今最大的鐵空氣電池部署案之一",
@@ -15,7 +16,8 @@
       "sourceUrl": "https://www.energy-storage.news/"
     },
     {
-      "title": "德國儲能監管改革：電網費用與慣性支付形成對比（德國）",
+      "title": "德國儲能監管改革：電網費用與慣性支付形成對比",
+      "country": "德國",
       "keyPoints": [
         "德國聯邦網路局(BNetzA)可能對大型儲能項目收取電網費用",
         "現有電網費用豁免將於2026年中期到期，投資者面臨不確定性",
@@ -29,20 +31,22 @@
       "sourceUrl": "https://www.energy-storage.news/germanys-grid-fees-and-inertia-payments-highlight-contrasts-in-energy-storage-regulation/"
     },
     {
-      "title": "菲律宾要求所有大型再生能源電廠整合儲能（菲律宾）",
+      "title": "菲律賓要求所有大型再生能源電廠整合儲能",
+      "country": "菲律賓",
       "keyPoints": [
-        "菲律宾能源部發布DC2026-02-0008新規定",
+        "菲律賓能源部發布DC2026-02-0008新規定",
         "所有新建再生能源電廠必須整合至少20%容量的儲能系統",
         "新規範鼓勵使用電網形成(GFM)逆變器技術",
         "GFM技術可提供慣性服務，改善電網穩定性",
         "此政策旨在提高再生能源滲透率同時維持供電質量",
         "能源部長強調儲能是強化電網吸收再生能源能力的關鍵"
       ],
-      "originalContent": "The Department said the new framework advances the government’s commitment to a just energy transition by supporting ESS deployment and ensuring its systematic integration.",
+      "originalContent": "The Department said the new framework advances the government's commitment to a just energy transition by supporting ESS deployment and ensuring its systematic integration.",
       "sourceUrl": "https://www.pv-tech.org/philippines-calls-for-energy-storage-at-all-large-scale-renewables-plants/"
     },
     {
-      "title": "Endesa在西班牙考古遺址啟用131MW農光互補電廠（西班牙）",
+      "title": "Endesa在西班牙考古遺址啟用131MW農光互補電廠",
+      "country": "西班牙",
       "keyPoints": [
         "西班牙公用事業Endesa在安達盧西亞啟用131MW太陽能電廠",
         "三座電廠名為Envatios I、II和III，與考古遺址共存",
@@ -56,7 +60,8 @@
       "sourceUrl": "https://www.pv-tech.org/endesa-commissions-131mw-agripv-portfolio-at-spanish-archaeological-site/"
     },
     {
-      "title": "澳洲850MW Waratah超級電池變壓器將於2026年Q3交付（澳洲）",
+      "title": "澳洲850MW Waratah超級電池變壓器將於2026年Q3交付",
+      "country": "澳洲",
       "keyPoints": [
         "Akaysha Energy確認澳洲最大儲能項目Waratah Super Battery的更換變壓器將於2026年第三季度交付",
         "項目容量達850MW，為澳洲史上最大儲能電廠",

@@ -2,9 +2,10 @@
   "date": "2026-03-01",
   "articles": [
     {
-      "title": "Xcel Energy Will Install 30GWh of Form Energy's Iron-Air Batteries at Google Data Center in Minnesota（美國）",
+      "title": "Xcel Energy將在Google資料中心安裝30GWh Form Energy鐵空氣電池",
+      "country": "美國",
       "keyPoints": [
-        "Utility Xcel Energy將在Google位於明尼蘇達州Pine Island的資料中心安裝30GWh的Form Energy鐵空氣電池",
+        "公用事業公司Xcel Energy將在Google位於明尼蘇達州Pine Island的資料中心安裝30GWh的Form Energy鐵空氣電池",
         "這是Form Energy鐵空氣電池技術的重大商業部署案例",
         "鐵空氣電池是一種新興的長時儲能技術，適合電網規模的應用",
         "此專案顯示科技巨頭與公用事業公司在儲能領域的合作趨勢",
@@ -14,7 +15,8 @@
       "sourceUrl": "https://www.energy-storage.news/"
     },
     {
-      "title": "Ukraine Government Views Energy Storage as Strategic National Importance（烏克蘭）",
+      "title": "烏克蘭政府將能源儲能視為國家戰略重要工具",
+      "country": "烏克蘭",
       "keyPoints": [
         "烏克蘭政府將能源儲能視為國家戰略重要工具",
         "在俄羅斯攻擊持續的情況下，儲能成為關鍵基礎設施",
@@ -26,7 +28,8 @@
       "sourceUrl": "https://www.energy-storage.news/"
     },
     {
-      "title": "Trina Storage Invests in Gore Street's EU BESS Fund with 12GWh Target（歐洲）",
+      "title": "Trina Storage投資Gore Street歐洲BESS基金，目標12GWh",
+      "country": "歐洲",
       "keyPoints": [
         "Trina Storage成為Gore Street Capital新成立的歐洲BESS基金的投資者",
         "該基金目標規模為12GWh",
@@ -38,7 +41,8 @@
       "sourceUrl": "https://www.energy-storage.news/trina-storage-to-invest-in-gore-streets-eu-bess-fund-12gwh-targeted/"
     },
     {
-      "title": "Germany's Grid Fees Threaten Energy Storage Market Growth（德國）",
+      "title": "德國電網費用威脅能源儲能市場成長",
+      "country": "德國",
       "keyPoints": [
         "德國監管機構可能對大型儲能專案收取電網使用費",
         "此決定可能阻礙德國能源儲能市場的成長",
@@ -50,11 +54,12 @@
       "sourceUrl": "https://www.energy-storage.news/germanys-grid-fees-and-inertia-payments-highlight-contrasts-in-energy-storage-regulation/"
     },
     {
-      "title": "Philippines DOE Mandates Energy Storage for Large-Scale Renewable Energy Plants（菲律賓）",
+      "title": "菲律賓能源部強制大型再生能源電廠配置儲能",
+      "country": "菲律賓",
       "keyPoints": [
         "菲律賓能源部要求大型再生能源電廠必須整合儲能系統",
         "此政策適用於所有大規模再生能源開發案",
-        "儲能整合可提高電網穩定性和可再生能源滲透率",
+        "儲能整合可提高電網穩定性和再生能源滲透率",
         "這是亞太區最新強制儲能的法規",
         "開發商需調整專案設計以符合新規範"
       ],
