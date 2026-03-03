@@ -2,7 +2,8 @@
   "date": "2026-03-03",
   "articles": [
     {
-      "title": "Xcel Energy將在Google資料中心安裝30GWh鐵空電池（美國）",
+      "title": "Xcel Energy將在Google資料中心安裝30GWh鐵空電池",
+      "country": "美國",
       "keyPoints": [
         "公用事業Xcel Energy將在明尼蘇達州Pine Island的Google資料中心安裝30GWh的Form Energy鐵空電池",
         "此項目為美國目前最大的鐵空電池部署案之一",
@@ -14,7 +15,8 @@
       "sourceUrl": "https://www.energy-storage.news/"
     },
     {
-      "title": "Boralex啟用加拿大最大營運中儲能系統（加拿大）",
+      "title": "Boralex啟用加拿大最大營運中儲能系統",
+      "country": "加拿大",
       "keyPoints": [
         "魁北克獨立發電商Boralex與Six Nations of the Grand River Development Corporation合作",
         "啟用Hagersville Battery Energy Storage Park，容量為300MW/1,200MWh",
@@ -26,7 +28,8 @@
       "sourceUrl": "https://www.energy-storage.news/boralex-commissions-canadas-largest-operating-bess-in-ontario/"
     },
     {
-      "title": "印度2026年將新增42.5GW太陽能容量（印度）",
+      "title": "印度2026年將新增42.5GW太陽能容量",
+      "country": "印度",
       "keyPoints": [
         "根據JMK Research研究報告，印度2026年預計新增42.5GW太陽能容量",
         "此數據基於2025年第四季度(10-12月)印度再生能源更新報告",
@@ -38,7 +41,8 @@
       "sourceUrl": "https://www.pv-tech.org/india-to-add-42-5gw-of-solar-capacity-in-2026-jmk-research/"
     },
     {
-      "title": "Virya Energy獲EBRD融資擴展波蘭太陽能組合（波蘭）",
+      "title": "Virya Energy獲EBRD融資擴展波蘭太陽能組合",
+      "country": "波蘭",
       "keyPoints": [
         "Virya Energy從歐洲復興開發銀行(EBRD)獲得9,900萬美元(8,500萬歐元)股权投资",
         "資金用於收購並擴展波蘭太陽能發電項目組合",
@@ -50,7 +54,8 @@
       "sourceUrl": "https://www.pv-tech.org/virya-energy-secures-us99-million-ebrd-equity-to-scale-polish-solar-portfolio/"
     },
     {
-      "title": "澳洲Waratah超級儲能變壓器2026年Q3交付（澳洲）",
+      "title": "澳洲Waratah超級儲能變壓器2026年Q3交付",
+      "country": "澳洲",
       "keyPoints": [
         "Akaysha Energy確認澳洲850MW Waratah Super Battery的替換變壓器將於2026年第三季度交付",
         "Waratah Super Battery為澳洲最大儲能項目之一",
