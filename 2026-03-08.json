@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-08",
+  "articles": [
+    {
+      "title": "羅馬尼亞大型BESS部署受益於國家特定驅動因素（羅馬尼亞）",
+      "keyPoints": [
+        "羅馬尼亞成為忙碌的電網規模儲能市場",
+        "大型BESS部署受益於國家特定驅動因素",
+        "Enery完成羅馬尼亞7.61MWp太陽能加1GWh BESS項目的融資，金額達5.34億美元",
+        "該項目為羅馬尼亞最大的太陽能加儲能項目之一",
+        "顯示東歐儲能市場正在快速增長"
+      ],
+      "originalContent": "Large-scale BESS deployments in Romania are benefiting from country-specific drivers, helping Romania emerge as a busy grid-scale market.",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "Jupiter Power 700MW/2,800MWh Trimount BESS獲批准（美國）",
+      "keyPoints": [
+        "Jupiter Power的700MW/2,800MWh Trimount電池儲能系統在馬薩諸塞州埃弗里特獲批",
+        "美國公用事業規模儲能持續快速增長",
+        "位於麻州的項目將增強新英格蘭地區電網穩定性",
+        "反映美國BESS市場的強勁發展勢頭",
+        "美國各州持續推動大型儲能項目建設"
+      ],
+      "originalContent": "Utility-scale battery storage developer Jupiter Power's 700MW/2,800MWh Trimount battery energy storage system (BESS) in Everett, Massachusetts, US, has been approved by state officials.",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "澳洲新南威爾斯亨特中央海岸REZ正式動工（澳洲）",
+      "keyPoints": [
+        "澳洲新南威爾斯上亨特區網絡升級項目正式開工",
+        "計劃到2028年將傳輸容量提升至少1GW",
+        "支持該州的可再生能源轉型",
+        "Fluence提前完成600MWh Bulabul Battery儲能項目的所有電池艙交付",
+        "NSW政府通過投資交付管理局批准了價值344億澳元的16個項目"
+      ],
+      "originalContent": "Construction has officially commenced on a network upgrade in Australia's New South Wales Upper Hunter region, which is set to boost transfer capacity by at least 1GW by 2028, in support of the state's renewable energy transition.",
+      "sourceUrl": "https://www.energy-storage.news/australia-construction-starts-on-hunter-central-coast-rez-in-new-south-wales/"
+    },
+    {
+      "title": "TotalEnergies伊拉克1GW巴士拉太陽能項目啟動61MW機組（伊拉克）",
+      "keyPoints": [
+        "TotalEnergies在伊拉克巴士拉地區的1GW太陽能電廠啟動首批61MW機組試運行",
+        "該機組將逐步提升至250MW滿負荷容量",
+        "項目佔地9公里，將安裝200萬塊太陽能面板",
+        "伊拉克最大太陽能項目，由四個250MW機組組成",
+        "25年長期運維合約，供應電 力至三個二次變電站",
+        "伊拉克計劃到2030年部署12GW太陽能容量"
+      ],
+      "originalContent": "French energy major TotalEnergies has initiated pilot operations of the first generating unit at its 1GW solar farm in Iraq's Basra region. Pilot commissioning has begun for the first 61MW unit, which will be gradually ramped up to its full 250MW capacity.",
+      "sourceUrl": "https://www.pv-tech.org/totalenergies-ramps-up-61mw-unit-at-iraqs-1gw-basra-solar-project/"
+    },
+    {
+      "title": "美國商務部提議對印度太陽能電池徵收125.87%反補貼稅（印度）",
+      "keyPoints": [
+        "美國商務部提議對印度太陽能細胞徵收125.87%的初步反補貼稅(CVD)",
+        "可能進一步影響全球太陽能供應鏈",
+        "印度作為新興太陽能製造中心的發展受阻",
+        "ISC Konstanz與Celloraa Energy合作在印度古吉拉特邦開發1.2GW TOPCon電池生產設施",
+        "反映美國太陽能貿易政策的持續緊張"
+      ],
+      "originalContent": "The US Department of Commerce (DoC) has proposed a 125.87% preliminary countervailing duty (CVD) on Indian solar cells.",
+      "sourceUrl": "https://www.pv-tech.org/"
+    }
+  ]
+}
