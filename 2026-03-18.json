@@ -1,0 +1,44 @@
+{
+  "date": "2026-03-18",
+  "articles": [
+    {
+      "title": "TotalEnergies與Holcim合作建成31MW比利時漂浮太陽能電站",
+      "country": "比利時",
+      "keyPoints": [
+        "法國能源巨頭TotalEnergies與瑞士建材公司Holcim在比利時Obourg建成了31MW漂浮太陽能電站"
+      ],
+      "source": "pv-tech.org",
+      "sourceUrl": "https://www.pv-tech.org/"
+    },
+    {
+      "title": "Statkraft在愛爾蘭啟動206MW太陽能項目商業運營",
+      "country": "愛爾蘭",
+      "keyPoints": [
+        "Statkraft在愛爾蘭共和國啟動了兩個太陽能光伏項目的商業運營",
+        "總裝機容量為206MW"
+      ],
+      "source": "pv-tech.org",
+      "sourceUrl": "https://www.pv-tech.org/"
+    },
+    {
+      "title": "印度ACME Solar完成480MWh儲能項目調試",
+      "country": "印度",
+      "keyPoints": [
+        "ACME Solar在拉賈斯坦邦完成約480MWh的電池儲能項目",
+        "並簽署了多項儲能支持的再生能源協議"
+      ],
+      "source": "energy-storage.news",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "歐洲需要緊急改革PV回收以應對日益增長的廢棄物量",
+      "country": "歐洲",
+      "keyPoints": [
+        "一項新研究顯示，歐洲的PV回收產能落後於未來幾十年預測的廢棄物量",
+        "需要緊急改革"
+      ],
+      "source": "pv-tech.org",
+      "sourceUrl": "https://www.pv-tech.org/"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-03-19",
+  "articles": [
+    {
+      "title": "Zelestra在西班牙建成162MW太陽能電站組合",
+      "country": "西班牙",
+      "keyPoints": [
+        "Zelestra在西班牙啟動了三個太陽能光伏電站的商業運營",
+        "總裝機容量為162MW"
+      ],
+      "source": "pv-tech.org",
+      "sourceUrl": "https://www.pv-tech.org/"
+    },
+    {
+      "title": "新澤西州通過能源儲能計劃選擇600MWh BESS項目",
+      "country": "美國",
+      "keyPoints": [
+        "新澤西州公用事業委員會選擇開發商Elevate Renewables在Ridgefield建設600MWh電池儲能系統"
+      ],
+      "source": "energy-storage.news",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "巴西Newave Energia與Gerdau開建452MW太陽能電站",
+      "country": "巴西",
+      "keyPoints": [
+        "可再生能源開發商Newave Energia和投資公司Gerdau建成了一座452MW太陽能光伏電站"
+      ],
+      "source": "pv-tech.org",
+      "sourceUrl": "https://www.pv-tech.org/"
+    },
+    {
+      "title": "愛沙尼亞國有企業Eesti Energia在立陶宛風電場建設184MWh BESS",
+      "country": "立陶宛",
+      "keyPoints": [
+        "Eesti Energia旗下Enefit將在立陶宛建設三個新的電池儲能系統",
+        "總容量為46MW/184MWh"
+      ],
+      "source": "energy-storage.news",
+      "sourceUrl": "https://www.energy-storage.news/"
+    }
+  ]
+}

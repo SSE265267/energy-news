@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-22",
+  "articles": [
+    {
+      "title": "全球2025年太陽能安裝量達647GW",
+      "country": "全球",
+      "keyPoints": [
+        "根據Ember數據，2025年全球太陽能光伏安裝量達647GW",
+        "較前年增長11%"
+      ],
+      "source": "pv-tech.org",
+      "sourceUrl": "https://www.pv-tech.org/"
+    },
+    {
+      "title": "印尼Dantara斥資14億美元建設太陽能模組組裝廠",
+      "country": "印尼",
+      "keyPoints": [
+        "印尼Dantara已籌集14億美元支持政府2035年前新增50GW可再生能源容量目標",
+        "重點發展太陽能"
+      ],
+      "source": "pv-tech.org",
+      "sourceUrl": "https://www.pv-tech.org/"
+    },
+    {
+      "title": "美國電池製造將超過100%國內需求",
+      "country": "美國",
+      "keyPoints": [
+        "美國能源存儲 Coalition報告顯示",
+        "美國電池製造產能將超過國內需求100%"
+      ],
+      "source": "energy-storage.news",
+      "sourceUrl": "https://www.energy-storage.news/"
+    },
+    {
+      "title": "Energy Vault公佈2025年第四季度及全年財務業績",
+      "country": "全球",
+      "keyPoints": [
+        "Energy Vault公佈2025年第四季度和全年財務業績",
+        "增長歸因於進入AI基礎設施市場、擴展澳洲項目及其Asset Vault子公司"
+      ],
+      "source": "energy-storage.news",
+      "sourceUrl": "https://www.energy-storage.news/"
+    }
+  ]
+}
