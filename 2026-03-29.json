@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-29",
+  "articles": [
+    {
+      "title": "Form Energy signs 12GWh agreement to supply multi-day iron-air batteries to new US AI data centres（美國）",
+      "keyPoints": [
+        "Form Energy 簽署 12GWh 供應協議",
+        "供應對象為 AI 數據中心基礎設施開發商 Crusoe",
+        "採用鐵空氣電池技術 (iron-air batteries)",
+        "可提供多日儲能 (multi-day storage)",
+        "滿足 AI 數據中心的高耗能需求",
+        "標誌著新型長時儲能技術取得重大商業突破"
+      ],
+      "originalContent": "Form Energy has signed a 12GWh supply agreement in the US for its iron-air batteries with AI data centre infrastructure developer Crusoe.",
+      "sourceUrl": "https://www.energy-storage.news/form-energy-signs-12gwh-agreement-to-supply-multi-day-iron-air-batteries-to-new-us-ai-data-centres/"
+    },
+    {
+      "title": "Sungrow bags 1GWh BESS supply deal with ENEVO Group in Romania（羅馬尼亞）",
+      "keyPoints": [
+        "Sungrow 與羅馬尼亞能源解決方案供應商 ENEVO Group 簽署協議",
+        "供應規模為 1GWh 電池儲能系統 (BESS)",
+        "覆蓋羅馬尼亞多個項目",
+        "ENEVO Group 為當地領先能源解決方案提供商",
+        "反映歐洲儲能市場持續增長",
+        "中國逆變器供應商在歐洲市場持續擴張"
+      ],
+      "originalContent": "Sungrow has signed an agreement with Romanian energy solutions provider ENEVO Group to supply 1GWh of BESS across projects in Romania.",
+      "sourceUrl": "https://www.energy-storage.news/sungrow-bags-1gwh-bess-supply-deal-with-enevo-group-in-romania/"
+    },
+    {
+      "title": "Australia's Transgrid shortlists 2GW of grid battery storage to replace coal's system strength in NSW（澳洲）",
+      "keyPoints": [
+        "Transgrid 篩選了 9 個公用事業規模電池儲能項目",
+        "總容量高達 2GW",
+        "提供關鍵系統強度服務",
+        "取代燃煤電廠的系統強度功能",
+        "位於新南威爾士州 (NSW)",
+        "顯示澳洲電網轉型的重大進展",
+        "助力淘汰煤電的轉型過程"
+      ],
+      "originalContent": "Transgrid has shortlisted nine utility-scale battery storage projects, totalling up to 2GW, to provide critical system strength services.",
+      "sourceUrl": "https://www.energy-storage.news/australias-transgrid-shortlists-2gw-of-grid-battery-storage-to-replace-coals-system-strength-in-nsw/"
+    },
+    {
+      "title": "Spain round-up: Axpo McDonald's sign 10-year PPA, EDP brings 90MW PV plants online（西班牙）",
+      "keyPoints": [
+        "Axpo 與麥當勞簽署 10 年太陽能購電協議 (PPA)",
+        "供電量為 83GWh",
+        "EDP 在納瓦拉地區上線 90MW 太陽能電廠",
+        "共兩個 PV 電廠項目",
+        "反映企業 PPA 市場持續活躍",
+        "西班牙太陽能市場持續擴張"
+      ],
+      "originalContent": "Axpo will supply 83GWh of solar to McDonald's under a 10-year PPA, while EDP adds 90MW with two Navarra PV plants.",
+      "sourceUrl": "https://www.pv-tech.org/spain-round-up-axpo-mcdonalds-sign-10-year-ppa-edp-brings-90mw-pv-plants-online/"
+    },
+    {
+      "title": "Australia opens tender for national solar panel recycling pilot（澳洲）",
+      "keyPoints": [
+        "澳洲 DCCEEW 發布市場徵求公告",
+        "尋找國家太陽能板回收試點計劃的管理機構",
+        "推動太陽能板回收產業發展",
+        "反映澳洲對太陽能廢棄物管理的重視",
+        "促進循環經濟發展",
+        "建立回收基礎設施和標準"
+      ],
+      "originalContent": "Australia's DCCEEW has launched an approach-to-market seeking an administrator to deliver the National Solar Panel Recycling Pilot.",
+      "sourceUrl": "https://www.pv-tech.org/australia-opens-tender-for-national-solar-panel-recycling-pilot-administrator/"
+    }
+  ]
+}
