@@ -1,0 +1,35 @@
+{
+  "date": "2026-03-31",
+  "articles": [
+    {
+      "title": "Form Energy signs 12GWh agreement to supply multi-day iron-air batteries to new US AI data centres（美國）",
+      "keyPoints": ["Form Energy 與 Crusoe 簽署 12GWh 鐵空氣電池供應協議，服務 AI 數據中心", "Crusoe 為 AI 數據中心基礎設施開發商", "電池將在 Form 1 工廠製造，位於西維吉尼亞州", "此協議跟進 Google-Xcel 30GWh 協議，為今年第二大訂單", "鐵空氣電池可提供超過 100 小時放電時長", "採用豐富且低成本的原材料", "比鋰離子电池效率低，但成本優勢可能彌補效率劣勢"],
+      "originalContent": "Form Energy has signed a 12GWh supply agreement in the US for its iron-air batteries with AI data centre infrastructure developer Crusoe. The batteries will be manufactured at Form 1, aligning with US market and government-driven demand for domestically made solutions.",
+      "sourceUrl": "https://www.energy-storage.news/form-energy-signs-12gwh-agreement-to-supply-multi-day-iron-air-batteries-to-new-us-ai-data-centres/"
+    },
+    {
+      "title": "Chile: Grenergy places 2.6GWh BESS order with BYD, Engie energises 230MWh project（智利）",
+      "keyPoints": ["Grenergy 向 BYD 訂購 2.6GWh BESS 用於 Central Oasis 項目", "首批 168 台設備已從深圳發貨，預計 4 月中旬抵達", "Central Oasis 含 1.1GW 太陽能和 4GWh 儲能", "Engie 的 Los Loros BESS 项目（46MW/230MWh）已完工，投資 6400 萬美元", "智利目前約有 6TWh 風光發電被削減", "預計 2027 年底達成 4.4GW 太陽能和 18.8GWh 儲能目標", "BYD 2025 年交付 60GWh 儲能系統"],
+      "originalContent": "Grenergy has placed a 2.6GWh BESS order with BYD for its Central Oasis project in Chile. Meanwhile, Engie announced the energisation of a 46MW/230MWh BESS project in the country last week.",
+      "sourceUrl": "https://www.energy-storage.news/chile-grenergy-places-2-6gwh-bess-order-with-byd-engie-energises-230mwh-project/"
+    },
+    {
+      "title": "Germany launches tender for 475MW of solar PV capacity（德國）",
+      "keyPoints": ["德國聯邦網絡局啟動 475MW 創新招標", "投標截止日期為 5 月 4 日，最高投標價 7.13 歐分/kWh", "項目規模最高可達 20MW，更大項目需在 4 月 30 日前獲批", "允許農業用地和 agrivoltaics 項目", "目前德國 agrivoltaics 裝機量為 16.5GW，上限 80GW", "今年招標總量為 950MW，將分兩次進行", "2 月拍賣會超額認購，授予 2.4GW，價格約 5 歐分/kWh"],
+      "originalContent": "The German Federal Network Agency, Bundesnetzagentur, has launched an innovation tender, and aims to award 475MW of new solar PV capacity by May. The maximum bid price is set at 7.13 euro cents/kWh.",
+      "sourceUrl": "https://www.pv-tech.org/germany-launches-tender-475mw-solar-pv-capacity/"
+    },
+    {
+      "title": "Philippines fast-tracks 1.4GW of renewables amid Iran energy price shock（菲律賓）",
+      "keyPoints": ["菲律賓快速跟進 1.4GW 可再生能源項目以應對伊朗戰爭", "這些項目包括 12 個太陽能（1.28GW）、6 個水電、2 個生質能、1 個風電", "項目處於建設後期或最終測試調試階段", "伊朗關閉霍爾木茲海峽導致全球燃料供應中斷", "DOE 歡迎 MTerra 太陽能儲能項目第一階段（250MW/450MWh）完工", "目標是建設 3.5GW/4.5GWh 容量", "全球可再生能源聯盟呼籲各國加速可再生能源部署"],
+      "originalContent": "The Philippines has fast-tracked 1.4GW of new renewable energy projects in response to the ongoing effects of the Iran war on fossil fuel prices. Most of these are solar PV projects with a cumulative 1.28GW of generation capacity.",
+      "sourceUrl": "https://www.pv-tech.org/philippines-fast-tracks-1-4gw-of-renewables-amid-iran-energy-price-shock/"
+    },
+    {
+      "title": "1.6GWh grid-forming Rutherglen Battery receives EPBC Act approval in Australia（澳洲）",
+      "keyPoints": ["Rutherglen Battery 獲得 EPBC Act 批准，容量 1.6GWh", "位於昆士蘭 Gladstone，佔地約 28 公頃", "採用磷酸鐵鋰（LFP）電池技術", "使用電網形成逆變器技術，提供系統強度服務", "連接到 Powerlink 275kV 傳輸線", "計劃 2027 年開工，2029 年完工，對接 Gladstone 電廠退役", "這是澳洲大型儲能項目聯邦環境審批的重要里程碑"],
+      "originalContent": "A 1.6GWh grid-forming battery energy storage system has received EPBC Act approval in Queensland, Australia. The facility will occupy approximately 28 hectares and utilise lithium iron phosphate (LFP) battery chemistry.",
+      "sourceUrl": "https://www.energy-storage.news/1-6gwh-grid-forming-rutherglen-battery-receives-epbc-act-approval-in-australia/"
+    }
+  ]
+}
