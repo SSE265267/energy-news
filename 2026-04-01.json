@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-01",
+  "articles": [
+    {
+      "title": "Michigan批准1332MW BESS項目 332MW支援Oracle數據中心（美國）",
+      "keyPoints": [
+        "密歇根公共服務委員會批准6個BESS項目，總容量1,332MW",
+        "其中332MW儲能設施支援Oracle在Washtenaw縣的數據中心",
+        "數據中心由Green Chile Ventures（Oracle全資子公司）開發",
+        "DTE Electric將擁有並運營這些儲能設施",
+        "Oracle將承擔15年期間的開發成本",
+        "這是美國首創最強的消費者保護措施，防止其他客戶補貼數據中心成本",
+        "合約期限至少19年，最低計費需求80%",
+        "大型科技公司正加速佈署數據中心儲能方案"
+      ],
+      "originalContent": "The Michigan Public Service Commission has approved six battery energy storage system (BESS) projects totalling 1,332MW of capacity in the US state. The last three contracts involve energy storage projects owned and operated by utility DTE Electric, which will support the 1,383MW data centre being developed by Green Chile Ventures LLC in Saline Township, Washtenaw County. Green Chile Ventures is a wholly owned subsidiary of technology company Oracle.",
+      "sourceUrl": "https://www.energy-storage.news/michigan-approves-1332mw-of-bess-with-332mw-supporting-oracle-data-centre/"
+    },
+    {
+      "title": "NGEN在奧地利建設170MWh BESS 歐洲多國投資儲能開發商（奧地利）",
+      "keyPoints": [
+        "BESS平台NGEN在奧地利Wagenham開始建設85MW/170MWh儲能項目",
+        "將於今年投入商業運營，提供再生能源整合的靈活性",
+        "上奧地利在歐洲電網中扮演戰略角色，連接德國",
+        "Foresight Group投資德國BESS開發商Mirai Power",
+        "Mirai已開發12.5GW項目管道",
+        "歐洲復興開發銀行(EBRD)向立陶宛Green Genius追加5000萬歐元投資",
+        "Green Genius管道包括立陶宛、拉脫維亞和波蘭的1.9GW項目",
+        "重點發展立陶宛公用事業規模儲能項目"
+      ],
+      "originalContent": "BESS platform NGEN has started building an 85M/170MWh BESS in Austria, while Foresight Group and the European Bank for Reconstruction and Development (EBRD) have invested in development platforms in Germany and Lithuania. The 2-hour battery energy storage system in Wagenham, Upper Austria, will go into commercial operation this year.",
+      "sourceUrl": "https://www.energy-storage.news/ngen-building-170mwh-austria-bess-foresight-and-ebrd-invest-in-germany-lithuania-developers/"
+    },
+    {
+      "title": "德國啟動475MW太陽能發電招標（德國）",
+      "keyPoints": [
+        "德國聯邦網絡機構啟動創新招標，目標授標475MW新太陽能容量",
+        "最高投標價格設為7.13歐分/kWh",
+        "投標截止日期為4月4日，較原定5月1日推遲",
+        "項目規模上限20MW，可提交不超過50MW的投標",
+        "允許農業用地項目和農業光電項目參與",
+        "農業光電容量上限為80GW，目前16.5GW在運營",
+        "今年需授標總容量950MW，分兩次進行",
+        "2月招標超額認購，授標2.4GW，平均價格5.00歐分/kWh"
+      ],
+      "originalContent": "The German Federal Network Agency, Bundesnetzagentur, has launched an innovation tender, and aims to award 475MW of new solar PV capacity by May. Applicants will have to make bids for the capacity by 4 May—pushed back from 1 May as this is a public holiday—with the maximum bid price set at 7.13 euro cents/kWh.",
+      "sourceUrl": "https://www.pv-tech.org/germany-launches-tender-475mw-solar-pv-capacity/"
+    },
+    {
+      "title": "菲律宾加速審批1.4GW再生能源項目應對伊朗能源危機（菲律宾）",
+      "keyPoints": [
+        "菲律宾能源部加速審批1.4GW再生能源項目",
+        "包括12個太陽能項目（1.28GW）、6個水電項目、2個生質能和1個風電項目",
+        "另有一個綜合再生能源儲能系統",
+        "這些項目處於施工後期或最終測試階段",
+        "受伊朗關閉霍爾木茲海峽影響，國際燃料供應鏈中斷",
+        "首階段MTerra光儲項目250MW太陽能和450MWh儲能已上線",
+        "最終達3.5GW/4.5GWh容量",
+        "能源部長：加速再生能源是戰略必要和國家當務之急"
+      ],
+      "originalContent": "The Philippines Department of Energy has fast-tracked 1.4GW of new renewable energy projects in response to the ongoing effects of the Iran war on fossil fuel prices. Most of these are solar PV projects with a cumulative 1.28GW of generation capacity, along with six hydroelectric projects, two biomass, one wind project and one integrated renewable energy storage system.",
+      "sourceUrl": "https://www.pv-tech.org/philippines-fast-tracks-1-4gw-of-renewables-amid-iran-energy-price-shock/"
+    },
+    {
+      "title": "智利Grenergy向BYD訂購2.6GWh儲能 Engie啟用230MWh項目（智利）",
+      "keyPoints": [
+        "Grenergy向BYD訂購2.6GWh儲能設備用於Central Oasis項目",
+        "首批168台設備已從深圳發貨，預計4月中旬到貨",
+        "Central Oasis包含1.1GW太陽能和4GWh儲能，今年全面運營",
+        "項目位于智利中部，投資9億歐元",
+        "Engie的Los Loros BESS項目46MW/230MWh投入運營",
+        "該項目位於阿塔卡馬沙漠地區，與53MW太陽能電廠並鄰",
+        "智利2025年太陽能裝機11.8GW，風電6GW",
+        "預計2027年底前達到9GW儲能上線"
+      ],
+      "originalContent": "Chile continues to be Latin America's hotspot for energy storage deployments, with a major new deal for Grenergy and Engie bringing a project online in the past week. Grenergy has signed a cooperation agreement for a potential 3GWh of battery storage deployments with BYD for its Central Oasis platform in Chile.",
+      "sourceUrl": "https://www.energy-storage.news/chile-grenergy-places-2-6gwh-bess-order-with-byd-engie-energises-230mwh-project/"
+    }
+  ]
+}
