@@ -1,0 +1,74 @@
+{
+  "date": "2026-04-04",
+  "articles": [
+    {
+      "title": "Qcells推出租賃式太陽能平台進軍美國住宅市場（美國）",
+      "keyPoints": [
+        "Qcells成立新部門Qcells New Homes，與建商合作將太陽能和儲能整合到新建住宅",
+        "採用租賃模式降低進入門檻，減少建商前期成本",
+        "租戶支付固定月租，低於公用事業費率，不影響房貸批准",
+        "供應美國製造的模組（喬治亞工廠）和本地生產的電池系統",
+        "整合電池存儲讓家庭可儲存太陽能並回售電網",
+        "備用電源功能可在斷電時供電"
+      ],
+      "originalContent": "Qcells is positioning the platform around a leasing model intended to lower barriers to adoption. Under the structure, upfront costs for builders are reduced, while homeowners can access systems without affecting their debt-to-income ratios – an important factor in mortgage approvals.",
+      "sourceUrl": "https://www.pv-tech.org/qcells-rolls-out-leasing-led-solar-platform-for-us-residential-sector/"
+    },
+    {
+      "title": "Eora Energy進軍澳洲市場 專注採礦和數據中心（澳洲）",
+      "keyPoints": [
+        "Eora Energy正式成立，定位為釩液流電池市場挑戰者",
+        "策略核心瞄準兩大市場：採礦業和數據中心",
+        "針對依賴柴油發電的偏遠礦場，提供替代能源方案",
+        "與數據中心运营商合作，因應澳洲數字基礎設施擴張帶來的電網壓力",
+        "釩液流電池可運行超過20年而不退化，適合關鍵基礎設施",
+        "澳洲擁有全球最大釩礦資源之一，可建立垂直整合產業",
+        "與Vecco Group合作在Townsville建立釩電解液工廠"
+      ],
+      "originalContent": "Eora Energy's strategy centres on two primary markets where long-duration storage offers distinct advantages over lithium-ion alternatives. In the mining sector, the company is targeting operations that rely heavily on diesel generation.",
+      "sourceUrl": "https://www.energy-storage.news/new-vanadium-flow-battery-player-eora-energy-launches-in-australia-with-mining-and-date-centre-focus/"
+    },
+    {
+      "title": "TNO開發世界首款鈣鈦礦太陽能屋頂瓦片（荷蘭）",
+      "keyPoints": [
+        "TNO宣布開發出世界首款柔性鈣鈦礦太陽能屋頂瓦片",
+        "彎曲形狀對發電效率影響極小，轉換效率達13.8%",
+        "材料和工藝已準備好進行工業規模應用",
+        "適合大規模卷對卷生產柔性太陽能薄膜",
+        "可將太陽能直接整合到建築物中，不影響設計美觀",
+        "成立子公司Perovion Technologies推進商業化",
+        "下一步改進技術壽命、可靠性和可擴展性"
+      ],
+      "originalContent": "To the best of my knowledge, this is the world's first electrically functioning solar roof tile concept based on flexible perovskite solar cells.",
+      "sourceUrl": "https://www.pv-tech.org/tno-claims-worlds-first-perovskite-solar-roof-tile/"
+    },
+    {
+      "title": "LONGi推出整合式光儲策略LONGi One（中國）",
+      "keyPoints": [
+        "LONGi推出整合式光儲策略LONGi One，從多供應商模式轉向全棧整合",
+        "結合背接觸（BC）太陽能技術與5S存儲平台",
+        "OneBank 2.0平台提供集成AC/DC存儲方案，iCCS技術實現毫秒級故障檢測",
+        "可降低系統故障率60%，縮短調試時間超過30%",
+        "Hi-MO One模組效率達24.8%，系統效率達90.3%",
+        "推出「2830計劃」，2028年前在全球建立30個本地服務中心",
+        "去年11月收購加拿大系統集成商PotisEdge"
+      ],
+      "originalContent": "LONGi One looks to address these issues through full-stack integration, combining the company's back-contact (BC) solar technology with its 5S storage platform to deliver what it describes as a unified solar generator.",
+      "sourceUrl": "https://www.pv-tech.org/longi-launches-integrated-solar-plus-storage-strategy/"
+    },
+    {
+      "title": "Axian在塞內加爾完成太陽能加儲能項目融資關閉（塞內加爾）",
+      "keyPoints": [
+        "Pan-African開發商Axian在塞內加爾Kolda項目完成8200萬美元融資關閉",
+        "這是西非最大的太陽能加儲能項目",
+        "項目總投資7200萬歐元（約8200萬美元）",
+        "融資方包括EAAIF、荷蘭開發銀行FMO和德國DEG",
+        "將協助塞內加爾實現2030年可再生能源占比40%的目標",
+        "與塞內加爾公用事業簽訂25年購電協議",
+        "計劃於2026年11月底調試"
+      ],
+      "originalContent": "Axian said the Kolda project would form a key pillar in Senegal's goal to increase the share of renewables in its electricity mix to 40% by 2030.",
+      "sourceUrl": "https://www.pv-tech.org/axian-reaches-financial-close-on-senegal-solar-plus-storage-project/"
+    }
+  ]
+}
