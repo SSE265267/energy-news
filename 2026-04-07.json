@@ -1,0 +1,35 @@
+{
+  "date": "2026-04-07",
+  "articles": [
+    {
+      "title": "EnerVenue獲3億美元融資擴大鎳氫電池製造（北京）",
+      "keyPoints": ["美國EnerVenue完成3億美元Series B融資擴展，由Full Vision Capital領投", "資金將用於擴張常州工廠的高量產製造設施", "新技術源自NASA 1980年代鎳氫電池，經Stanford教授Yi Cui 2017年改良", "宣稱可達30,000次循環壽命，約為鋰離子電池4-6倍吞吐量", "R&D總部位於加州矽谷，專注改善水性金屬電池", "2024年獲RWE購買用於美國密爾沃基試點項目", "新執行長Henning Rath曾任Enpal供應鏈總監"],
+      "originalContent": "EnerVenue, the US company commercialising technology adapted from nickel-hydrogen batteries, has closed a US$300 million extension of its Series B preferred stock financing round.",
+      "sourceUrl": "https://www.energy-storage.news/enervenue-closes-us300-million-series-b-for-30000-cycle-nickel-hydrogen-battery-manufacturing/"
+    },
+    {
+      "title": "南澳2030年前用電需求將倍增達50TWh（澳洲）",
+      "keyPoints": ["ElectraNet報告顯示75個項目洽談中，潛在新增負載為目前峰值數倍", "數據中心、綠鋼、氫氣生產是主要驅動因素", "目前約75%電力來自再生能源，目標2027年達100%", "現有275kV傳輸骨幹無法承受，需升級至2,000MW", "Mid North地區將建設2,300MW電池儲能，佔總量65%", "2025下半年安裝23,587個家用電池，接近前十年總和", "Torrens Island B 800MW電廠將於2028年退役"],
+      "originalContent": "ElectraNet's 2026 Transmission Annual Planning Report reveals that over 75 prospective projects across 41 proponents are currently in discussions to connect to the South Australian transmission network, representing multiple times the state's current peak demand.",
+      "sourceUrl": "https://www.pv-tech.org/green-steel-data-centres-and-hydrogen-push-south-australias-electricity-demand-toward-50twh-by-2040/"
+    },
+    {
+      "title": "德國引領歐洲太陽能拍賣市場（德國）",
+      "keyPoints": ["2021-2025年間德國透過拍賣授予近25GW新太陽能容量", "2025年歐盟拍賣總量中德國佔20%以上", "德國是唯一提供太陽能+儲能混合拍賣的歐盟國家", "R.Power在德國運營800MW太陽能項目組合", "企業PPA價格受中東衝突影響可能上漲24%", "共置儲能只能從連接的發電項目充電，限制市場參與", "波蘭允許共置儲能從電網充放電，更易商業化"],
+      "originalContent": "Germany has long been a leader in terms of national auctions, having awarded nearly 25GW of new solar PV capacity through auctions between 2021 and 2025.",
+      "sourceUrl": "https://www.pv-tech.org/how-germany-has-led-europes-solar-pv-auctions/"
+    },
+    {
+      "title": "西非最大太陽能儲能項目達財務 close（塞內加爾）",
+      "keyPoints": ["Axian達成了7,200萬歐元融資 close，創西非最大太陽能+儲能項目", "由EAAIF、荷蘭FMO和德國DEG提供融資", "Kolda項目將協助塞內加爾2030年前實現40%再生能源目標", "與國營電力公司Senelec簽署25年購電協議", "儲能系統將提升尖峰用電期間電網韌性", "項目計劃2026年11月底商轉", "Axian在非洲多國已有355MW再生能源運營"],
+      "originalContent": "Pan-African developer Axian Energy has reached financial close on what it is billing as West Africa's largest solar-plus-storage project.",
+      "sourceUrl": "https://www.pv-tech.org/axian-reaches-financial-close-on-senegal-solar-plus-storage-project/"
+    },
+    {
+      "title": "TotalEnergies與Masdar成立22億美元亞洲再生能源合資（日本、韓國、印尼等）",
+      "keyPoints": ["法國TotalEnergies與阿聯酋Masdar成立22億美元合資企業", "50-50合資將在九個亞洲國家開發太陽能、儲能和陸上風電", "涵蓋日本、韓國、印尼、馬來西亞、菲律宾、新加坡、哈薩克、烏茲別克", "合併3GW運營資產和6GW開發管線，目標2030年前商轉", "阿布達比全球市場設立總部", "Masdar剛獲EBRD烏茲別克300MW太陽能融資和亞塞拜然760MW項目", "打造雙方在亞洲陸上再生能源的唯一開發平台"],
+      "originalContent": "French oil and gas major TotalEnergies has signed a US$2.2 billion joint venture with the Emirati state-run renewable energy developer Masdar to jointly develop renewables across Asia.",
+      "sourceUrl": "https://www.pv-tech.org/totalenergies-masdar-establish-us2-2-billion-asia-renewables-partnership/"
+    }
+  ]
+}
