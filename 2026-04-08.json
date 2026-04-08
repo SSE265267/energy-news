@@ -1,0 +1,70 @@
+{
+  "date": "2026-04-08",
+  "articles": [
+    {
+      "title": "CO2 battery startup Energy Dome signs MOU to deploy technology at Texas data centre（美國）",
+      "keyPoints": [
+        "Energy Dome與New Era Energy & Digital (NUAI)簽署MOU，在德州Odessa部署CO2 Battery Plus技術",
+        "CO2 Battery利用壓縮CO2儲能，放電時利用廢熱驅動膨脹器產生power",
+        "三種模式：Charge、SuperBoost(放電)、Boost(發電)，可提升燃氣電廠輸出達25%",
+        "Google去年宣布戰略投資Energy Dome並評估CO2 Battery技術",
+        "Google亦規劃在Minnesota打造30GWh鐵空氣電池項目為數據中心供電",
+        "Wisconsin公用事業Alliant Energy的20MW/200MWh項目已獲監管批准，預計2027年底完工"
+      ],
+      "originalContent": "Energy Dome和數字基礎設施公司New Era Energy & Digital (NUAI)簽署諒解備忘錄，在德克薩斯州Odessa部署Energy Dome的CO2 Battery Plus技術。雖然可與任何發電方式配對，包括可再生能源，但與燃氣輪機(OCGT)搭配時，該公司聲稱CO2 Battery可提升功率輸出、加強營運彈性並減少排放。",
+      "sourceUrl": "https://www.energy-storage.news/co2-battery-startup-energy-dome-signs-mou-to-deploy-technology-at-texas-data-centre/"
+    },
+    {
+      "title": "Boralex and Six Nations secure US$145 million financing for 500MWh Ontario BESS（加拿大）",
+      "keyPoints": [
+        "魁北克IPP Boralex與Six Nations of the Grand River完成2.02億加元融資",
+        "125MW/500MWh BESS位於安大略省Oxford County，預計2027年商業運營",
+        "融資包含1.1926億美元建設貸款及1796萬美元橋樑貸款用於ITC",
+        "此為雙方合作開發的第二個項目，也是Boralex在北美的第三個BESS",
+        "IESO透過LT1 RFP採購近1.8GW儲能項目，為加拿大最大規模",
+        "雙方已建成加拿大最大運營中BESS：Haldimand County的300MW/1,200MWh項目"
+      ],
+      "originalContent": "魁北克獨立發電商Boralex與Six Nations of the Grand River Development Corporation宣布完成2.02億加元（1.4512億美元）融資，用於安大略省Oxford County的125MW/500MWh電池儲能系統。",
+      "sourceUrl": "https://www.energy-storage.news/boralex-six-nations-of-the-grand-river-secure-us145-million-financing-for-500mwh-ontario-bess/"
+    },
+    {
+      "title": "PPC Group completes construction of 2.1GW Greek solar PV portfolio（希臘）",
+      "keyPoints": [
+        "PPC Group完成2.13GW太陽能項目組合，稱為「歐洲最大太陽能集群」",
+        "位於前褐煤礦場，共14個項目，將占希臘年度用電量6%",
+        "最大單一設施為550MW Phoebe電廠，鄰近Pontokomi村",
+        "940MW Amyntaio光電複合物與德國RWE合作開發",
+        "已在西馬其頓運營98MW/196MWh儲能，興建中50MW/200MWh儲能",
+        "目標2030年可再生能源占電網容量81%，太陽能從2023年7GW增至13.5GW"
+      ],
+      "originalContent": "希臘公用事業PPC Group完成北希臘2.13GW太陽能光電組合，稱為「歐洲最大光電項目集群」。該組合位於前褐煤礦場，由14個項目組成。",
+      "sourceUrl": "https://www.pv-tech.org/ppc-group-completes-construction-2-1gw-greek-solar-pv-portfolio/"
+    },
+    {
+      "title": "South Korea to almost triple renewable energy capacity to 100GW by 2030（南韓）",
+      "keyPoints": [
+        "南韓宣布2030年前將可再生能源容量從37GW增至100GW，接近三倍",
+        "去年天然氣和煤炭占能源結構55.2%，政府欲減少對化石燃料依賴",
+        "將興建分散式電網，整合儲能系統(ESS)和抽水發電",
+        "擴大太陽能設置類型：工業廠房屋頂農業型、水面型",
+        "計劃2040年前關閉60座燃煤電廠",
+        "第11個長期電力供需基本計劃目標2038年可再生能源達121.9GW"
+      ],
+      "originalContent": "「我們將建立一個不會因外部衝擊（如中東戰爭）而動搖的能源系統，」韓國貿易、工業和能源部官員Kim表示。衝突大幅擾亂化石燃料供應鏈，影響仰賴化石燃料滿足能源需求的國家。",
+      "sourceUrl": "https://www.pv-tech.org/south-korea-almost-triple-renewable-energy-capacity-100gw-2030/"
+    },
+    {
+      "title": "Waaree Energies' subsidiary commissions 3GW PV module plant in Gujarat（印度）",
+      "keyPoints": [
+        "Waaree旗下Sangam Solar One在古吉拉特邦啟用3GW光伏模組工廠",
+        "四條產線，每條年產能750MW，工廠總名目產能達3GW",
+        "此前已有兩條750MW模組線，初始产能1.5GW",
+        "這是Waaree 2.0策略的一部分，建立完整太陽能價值鏈",
+        "Waaree目前運營22.3GW全球模組產能和5.4GW電池產能",
+        "在Nagpur興建10GW太陽能晶棒和晶圓工廠，投資671億盧比，預計創造8000個當地就業"
+      ],
+      "originalContent": "Sangam Solar One是印度光伏製造商Waaree Energies的子公司，在古吉拉特邦Samakhiali啟用3GW光伏模組製造設施。該設施有四條產線，每條年產能750MW。",
+      "sourceUrl": "https://www.pv-tech.org/waaree-energies-subsidiary-commissions-3gw-pv-module-plant-in-gujarat/"
+    }
+  ]
+}
