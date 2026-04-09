@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-09",
+  "articles": [
+    {
+      "title": "Texas Attorney General investigates residential solar installers for fraudulent practices（美國）",
+      "keyPoints": [
+        "德州檢察長Ken Paxton宣布對多家住宅太陽能安裝公司展開調查",
+        "調查對象包括Sunrun、Freedom Forever等主要住宅太陽能安裝商",
+        "檢察長辦公室已收到超過100起消費者投訴，網路上另有數千起投诉",
+        "調查將審查這些公司對消費者節能效果的聲稱、安裝品質、营销材料和合約條款",
+        "Sunrun發聲明強調其近20年歷史和嚴格的消費者保護標準",
+        "Freedom Forever表示尚未收到任何正式詢問，將全力配合調查",
+        "此調查可能對美國住宅太陽能市場產生重大影響"
+      ],
+      "originalContent": "Texas Attorney General Ken Paxton has launched an investigation into several residential solar installers over alleged 'fraudulent and deceptive practices'. The investigation targets major companies including Sunrun and Freedom Forever. The AG's office received over 100 complaints, with thousands more online.",
+      "sourceUrl": "https://www.pv-tech.org/texas-ag-investigates-residential-solar-installers"
+    },
+    {
+      "title": "NSW IPC approves 1.5GWh solar-plus-storage project in Australia（澳洲）",
+      "keyPoints": [
+        "NSW獨立規劃委員會批准Spark Renewables的Dinawan太陽能儲能項目",
+        "項目容量包括800MW太陽能、356MW/1,574MWh儲能系統",
+        "這是Dinawan Energy Hub的一部分，總規劃達2GW風力、太陽能和儲能",
+        "項目位於Wiradjuri人傳統土地上，連接South West Renewable Energy Zone",
+        "獲獎連接至EnergyConnect互聯器，連接南澳與新南威爾斯",
+        "支持HumeLink和VNI West互聯器建設，增強跨州再生能源傳輸",
+        "需通過社區影響、交通、噪音、消防等條件審查"
+      ],
+      "originalContent": "The NSW Independent Planning Commission has approved Spark Renewables' Dinawan Solar Farm, an 800MW solar project paired with a 356MW/1,574MWh BESS. The project is part of the larger 2GW Dinawan Energy Hub.",
+      "sourceUrl": "https://www.energy-storage.news/nsw-ipc-approves-1-5gwh-solar-plus-storage-project-in-australia/"
+    },
+    {
+      "title": "Canada's smallest province Prince Edward Island issues REOI for up to 50MW of BESS（加拿大）",
+      "keyPoints": [
+        "愛德華王子島省發出10-50MW、4小時儲能系統的需求意向書",
+        "10MW項目將使該省現有儲能容量幾乎翻倍",
+        "可選擇擴展至8小時持續時間，可能分布在多個地點",
+        "需提交詳細項目時間表、財務計畫、社會經濟效益計畫",
+        "需包含多元化、公平性和包容性計畫",
+        "提交截止日期為2026年4月23日",
+        "成功與否取決於聯邦政府資助金額"
+      ],
+      "originalContent": "Prince Edward Island's PEI Energy Corporation has issued a REOI for a 10-50MW, 4-hour duration BESS. Even a 10MW project would almost double the island's current installed BESS capacity of 11.8MW.",
+      "sourceUrl": "https://www.energy-storage.news/canadas-smallest-province-prince-edward-island-issues-reoi-for-up-to-50mw-of-bess/"
+    },
+    {
+      "title": "South Korea to almost triple renewable energy capacity to 100GW by 2030（南韓）",
+      "keyPoints": [
+        "南韓宣布計劃將再生能源容量從37GW增加至100GW",
+        "目標是2030年再生能源佔發電量20%，從目前10.8%提升",
+        "氣候部長表示將建立不受中東戰爭等外部衝擊影響的能源系統",
+        "計畫包括擴大太陽能、風力、水力發電及生質燃料",
+        "將從集中式電網轉向分散式，加強儲能系統整合",
+        "計畫涵蓋太陽能多元化：工廠屋頂型、農業型、水面浮動型",
+        "2038年目標再生能源容量為121.9GW"
+      ],
+      "originalContent": "South Korea has announced plans to almost triple its operational renewable energy capacity from 37GW today to 100GW by the end of the decade. The target is 20% of electricity generation from renewables by 2030.",
+      "sourceUrl": "https://www.pv-tech.org/south-korea-almost-triple-renewable-energy-capacity-100gw-2030/"
+    },
+    {
+      "title": "PPC Group completes 2.1GW Greek solar PV portfolio, largest in Europe（希臘）",
+      "keyPoints": [
+        "希臘公用事業PPC Group完成2.13GW太陽能項目組合",
+        "包含14個項目，位於前褐煤礦場，稱為歐洲最大太陽能集群",
+        "最大單一設施為550MW Phoebe項目",
+        "940MW Amyntaio複合物與德國RWE合作開發",
+        "項目將滿足希臘年度用電量的6%",
+        "已營運98MW/196MWh儲能，建設中50MW/200MWh儲能設施",
+        "西馬其頓地區正成為希臘新的綠色能源中心"
+      ],
+      "originalContent": "Greek Utility PPC Group has completed construction of a 2.13GW solar PV portfolio in northern Greece, described as 'the largest cluster of photovoltaic projects in Europe'.",
+      "sourceUrl": "https://www.pv-tech.org/ppc-group-completes-2-1gw-greek-solar-pv-portfolio/"
+    }
+  ]
+}
