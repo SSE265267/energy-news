@@ -1,0 +1,84 @@
+{
+  "date": "2026-04-10",
+  "articles": [
+    {
+      "title": "GridStor與Axpo執行440MWh德州儲能收入交換協議（美國）",
+      "keyPoints": [
+        "GridStor與Axpo執行440MWh德州BESSRevenue Swap協議",
+        "位於Galveston County的Hidden Lakes項目",
+        "BESS於2025年11月開始營運",
+        "Revenue Swap是客製化交易結構，釋放儲能融資",
+        "有助於穩定客戶電費率",
+        "Axpo為瑞士最大能源公司",
+        "GridStor由Goldman Sachs支持"
+      ],
+      "originalContent": "Gridstor和Axpo執行了一項440MWh德州儲能Revenue Swap協議。GridStor執行長Chris Taylor表示，該Revenue Swap協議是一種客製化交易結構，可釋放儲能融資，同時為客戶提供更穩定的電費率。",
+      "sourceUrl": "https://www.energy-storage.news/gridstor-axpo-execute-energy-storage-revenue-swap-agreement-for-440mwh-texas-bess/"
+    },
+    {
+      "title": "Engie收購西班牙1.1GWh同步電容器配對儲能項目（西班牙）",
+      "keyPoints": [
+        "Engie收購西班牙兩個大型BESS項目，合計278MW/1.1GWh",
+        "位於Andalusia的Álora和Tarifa",
+        "配備同步電容器提供慣性和無功功率服務",
+        "預計2027年開工，2028年調試",
+        "法國項目110MW/220MWh位於Aude省",
+        "法國項目將於2027年夏季調試"
+      ],
+      "originalContent": "跨國電力公司Engie收購了西班牙兩個大型BESS項目，合計278MW/1.1GWh。項目位於Andalusia的Álora (78MW/312MWh)和Tarifa (200MW/800MWh)。配備同步電容器提供慣性和無功功率服務。",
+      "sourceUrl": "https://www.energy-storage.news/engie-buys-1-1gwh-of-synchronous-condenser-paired-bess-in-spain-starts-building-220mwh-france-project/"
+    },
+    {
+      "title": "Novar收購德國100MW太陽能電廠可共置160MWh儲能（德國）",
+      "keyPoints": [
+        "荷蘭開發商Novar收購德國100MW太陽能項目",
+        "位於Baden-Württemberg州的Untermünkheim項目",
+        "可共置160MWh電池儲能系統",
+        "從德國開發商Stromernte收購",
+        "目標兩年內開始發電",
+        "Novar在德國首個併購項目"
+      ],
+      "originalContent": "荷蘭太陽能開發商Novar收購了位於Baden-Württemberg的100MW太陽能電廠。該項目也可共置160MWh容量電池儲能系統。Novar德國區經理表示這是與當地夥伴合作的第一个大型項目。",
+      "sourceUrl": "https://www.pv-tech.org/novar-acquires-100mw-solar-pv-plant-in-germany-potential-to-co-locate-160mwh-bess/"
+    },
+    {
+      "title": "Private Energy Partners提交780MW儲能項目至澳洲EPBC法案（澳洲）",
+      "keyPoints": [
+        "Private Energy Partners提交780MW BESS項目",
+        "位於Queensland的Gladstone State Development Area",
+        "結合最多1,188MW燃氣發電",
+        "儲能時長可達8小時(6,240MWh)",
+        "使用LFP鋰鐵磷酸鹽電池",
+        "由6台燃氣渦輪機組成，每台198MW"
+      ],
+      "originalContent": "Private Energy Partners向澳洲環境審批程序提交了780MW混合能源項目，結合最多1,188MW燃氣發電。位於Queensland的Gladstone，距離Mount Larcomb 7公里，旨在應對傳統火力發電退役帶來的預測慣性和發電缺口。",
+      "sourceUrl": "https://www.energy-storage.news/private-energy-partners-submits-780mw-battery-storage-project-to-australias-epbc-act/"
+    },
+    {
+      "title": "Origis Energy獲得加州太陽能儲能項目1.18億美元稅收 equity（美國）",
+      "keyPoints": [
+        "Origis Energy獲1.18億美元稅收equity融資",
+        "Chalan太陽能儲能項目位於加州Kern County",
+        "65MW太陽能+25MW/100MWh儲能",
+        "預計2026年第四季度商業營運",
+        "與Pioneer Community Energy簽署20年PPA",
+        "資金來自RBC Community Investments"
+      ],
+      "originalContent": "美國獨立發電商Origis Energy為加州Kern County的Chalan太陽能儲能項目獲得1.18億美元稅收equity融資。項目正在建設中，將65MW太陽能與25MW/100MWh儲能配對，預計2026年第四季度開始商業營運。",
+      "sourceUrl": "https://www.pv-tech.org/origis-secures-us118-million-tax-equity-california-solar-plus-storage-project/"
+    },
+    {
+      "title": "EDF獲英格蘭800MW太陽能項目開發同意令（英國）",
+      "keyPoints": [
+        "EDF獲英格蘭800MW太陽能項目開發同意令",
+        "Springwell PV項目為最大清潔能源NSIP",
+        "位於Lincolnshire",
+        "太陽能面板佔地面積從816公頃減少至594公頃",
+        "預計2029年商業營運",
+        "為本屆政府批准的最大太陽能NSIP"
+      ],
+      "originalContent": "法國公用事業公司EDF從英國政府獲得開發同意令，在英格蘭建設800MW Springwell太陽能電廠。這是目前政府批准的最大清潔能源國家重要基礎設施項目(NSIP)和第14個太陽能NSIP。",
+      "sourceUrl": "https://www.pv-tech.org/edf-receives-development-consent-order-for-800mw-pv-project-in-england/"
+    }
+  ]
+}
